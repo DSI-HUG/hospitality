@@ -1,0 +1,88 @@
+{
+    "name": "@hug/hospitality",
+    "version": "1.0.0",
+    "description": "TODO:",
+    "homepage": "https://github.com/dsi-hug/hospitality",
+    "license": "GPL-3.0-only",
+    "author": "HUG - Hôpitaux Universitaires Genève",
+    "contributors": [
+        "badisi (https://github.com/badisi)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dsi-hug/hospitality.git"
+    },
+    "publishConfig": {
+        "access": "public",
+        "tag": "latest"
+    },
+    "exports": {
+        "./tokens": {
+            "require": "./src/tokens/index.mjs",
+            "types": "./src/tokens/index.d.ts",
+            "default": "./src/tokens/index.mjs"
+        },
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "README.md",
+        "LICENSE",
+        "src/tokens/index.mjs",
+        "src/tokens/index.d.ts"
+    ],
+    "keywords": [
+        "TODO:"
+    ],
+    "scripts": {
+        "ncu": "npx npm-check-updates -i --format=group --packageFile '{,projects/**/}package.json'",
+        "prepare": "husky || true",
+        "lint": "eslint . --fix",
+        "lint:ci": "eslint .",
+        "release": "npm publish"
+    },
+    "workspaces": [
+        "projects/demo-app",
+        "projects/lib"
+    ],
+    "devDependencies": {
+        "@commitlint/cli": "^19.8.0",
+        "@commitlint/config-conventional": "^19.8.0",
+        "@hug/eslint-config": "^20.3.3",
+        "husky": "^9.1.7",
+        "lint-staged": "^15.5.0"
+    },
+    "commitlint": {
+        "extends": [
+            "@commitlint/config-conventional"
+        ],
+        "rules": {
+            "type-enum": [
+                2,
+                "always",
+                [
+                    "build",
+                    "chore",
+                    "ci",
+                    "docs",
+                    "feat",
+                    "fix",
+                    "perf",
+                    "refactor",
+                    "revert",
+                    "style",
+                    "test",
+                    "deps"
+                ]
+            ]
+        }
+    },
+    "lint-staged": {
+        "**/*.{js,ts,html,json}": [
+            "npm run lint"
+        ]
+    },
+    "engines": {
+        "yarn": "Please use Npm instead of Yarn."
+    },
+    "packageManager": "npm@11.2.0"
+}
