@@ -27,8 +27,7 @@
     "files": [
         "README.md",
         "LICENSE",
-        "src/tokens/index.mjs",
-        "src/tokens/index.d.ts"
+        "src/"
     ],
     "keywords": [
         "TODO:"
