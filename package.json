@@ -1,6 +1,6 @@
 {
     "name": "@hug/hospitality",
-    "version": "0.0.2-alpha",
+    "version": "0.0.3-alpha",
     "description": "Hospitality Design System",
     "homepage": "https://github.com/dsi-hug/hospitality",
     "license": "GPL-3.0-only",
@@ -22,6 +22,7 @@
             "types": "./src/tokens/index.d.ts",
             "default": "./src/tokens/index.mjs"
         },
+        "./tokens/tokens.css": "./src/tokens/tokens.css",
         "./package.json": "./package.json"
     },
     "files": [
