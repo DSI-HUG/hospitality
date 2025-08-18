@@ -1,3 +1,3 @@
-import tokens from "./tokens.json" assert { type: "json" };
+import tokens from './tokens.json';
 
 export { tokens };
