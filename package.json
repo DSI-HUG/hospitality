@@ -20,7 +20,7 @@
         "./tokens": {
             "require": "./src/tokens/index.mjs",
             "types": "./src/tokens/index.d.ts",
-            "default": "./src/tokens/index.css"
+            "default": "./src/tokens/tokens.css"
         },
         "./package.json": "./package.json"
     },
