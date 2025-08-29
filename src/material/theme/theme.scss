@@ -1,0 +1,65 @@
+@use "@angular/material" as mat;
+@include mat.core();
+
+$hy-theme: mat.define-theme();
+ 
+:root {
+    @include mat.theme-overrides((
+        /* Colors */
+        primary: var(--hy-color-primary),
+        on-primary: var(--hy-color-on-primary),
+        primary-container: var(hy-color-primary-container),
+        on-primary-conmtainer: var(hy-color-on-primary-container),
+        primary-fixed: var(hy-color-primary-fixed),
+        primary-fixed-dim: var(hy-color-primary-fixed-dim),
+        on-primary-fixed: var(hy-color-primary-fixed),
+        on-primary-fixed-variant: var(hy-color-primary-fixed-variant),
+
+        secondary: var(--hy-color-secondary),
+        on-secondary: var(--hy-color-on-secondary),
+        secondary-container: var(hy-color-secondary-container),
+        on-secondary-conmtainer: var(hy-color-on-secondary-container),
+        secondary-fixed: var(hy-color-secondary-fixed),
+        secondary-fixed-dim: var(hy-color-secondary-fixed-dim),
+        on-secondary-fixed: var(hy-color-secondary-fixed),
+        on-secondary-fixed-variant: var(hy-color-secondary-fixed-variant),
+        
+        tertiary: var(--hy-color-tertiary),
+        on-tertiary: var(--hy-color-on-tertiary),
+        tertiary-container: var(hy-color-tertiary-container),
+        on-tertiary-conmtainer: var(hy-color-on-tertiary-container),
+        tertiary-fixed: var(hy-color-tertiary-fixed),
+        tertiary-fixed-dim: var(hy-color-tertiary-fixed-dim),
+        on-tertiary-fixed: var(hy-color-tertiary-fixed),
+        on-tertiary-fixed-variant: var(hy-color-tertiary-fixed-variant),
+
+        error: var(--hy-color-error),
+        on-error: var(--hy-color-on-error),
+        error-container: var(hy-color-error-container),
+        on-error-conmtainer: var(hy-color-on-error-container),
+
+        surface: var(--hy-color-surface),
+        surface-dim: var(--hy-color-surface-dim),
+        surface-bright: var(hy-color-surface-bright),
+        surface-container-lowest: var(--hy-color-surface-container-lowest),
+        surface-container-low: var(--hy-color-surface-container-low),
+        surface-container: var(--hy-color-surface-container),
+        surface-container-high: var(--hy-color-surface-container-high),
+        surface-container-highest: var(--hy-color-surface-container-highest),
+        on-surface: var(--hy-color-on-surface),
+        on-surface-variant: var(--hy-color-on-surface-variant),
+        ouline: var(--hy-color-outline),
+        ouline-variant: var(--hy-color-outline-variant),
+        inverse-surface: var(--hy-color-inverse-surface),
+        inverse-on-surface: var(--hy-color-inverse-on-surface),
+        inverse-primary: var(--hy-color-inverse-primary),
+
+        background: var(--hy-color-background),
+        on-background: var(--hy-color-on-background),
+        scrim: var(--hy-color-scrim),
+        shadow: var(--hy-color-shadow),
+
+        /* Typographies */
+        // TODO
+    ))
+}
