@@ -1,8 +1,8 @@
 interface Token {
-    id: string,
-    name: string,
-    type: 'COLOR' | 'TYPO',
-    value: string
+    id: string;
+    name: string;
+    type: 'COLOR' | 'TYPO';
+    value: string;
 }
 
 interface Tokens {

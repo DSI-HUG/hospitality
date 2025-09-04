@@ -22,6 +22,7 @@
             "types": "./src/tokens/index.d.ts",
             "default": "./src/tokens/tokens.css"
         },
+        "./material/theme": "./src/material/theme/theme.scss",
         "./package.json": "./package.json"
     },
     "files": [
@@ -45,6 +46,9 @@
         "@hug/eslint-config": "^20.3.3",
         "husky": "^9.1.7",
         "lint-staged": "^15.5.0"
+    },
+    "peerDependencies": {
+        "@angular/material": "19.x.x"
     },
     "commitlint": {
         "extends": [
