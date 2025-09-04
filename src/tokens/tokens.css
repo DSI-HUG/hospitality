@@ -12,344 +12,345 @@
     * COLOR REFERENCES
     * ==========================================================================
     */
-    --hy-ref-color-primary-100: #ffffffff;
-    --hy-ref-color-primary-99: #fcfcffff;
-    --hy-ref-color-primary-98: #f7f9ffff;
-    --hy-ref-color-primary-95: #e8f1ffff;
-    --hy-ref-color-primary-90: #cfe5ffff;
-    --hy-ref-color-primary-80: #99cbffff;
-    --hy-ref-color-primary-70: #6bb0f2ff;
-    --hy-ref-color-primary-60: #4e96d5ff;
-    --hy-ref-color-primary-50: #2e7cbaff;
-    --hy-ref-color-primary-40: #00629eff;
-    --hy-ref-color-primary-35: #00568bff;
-    --hy-ref-color-primary-30: #004a78ff;
-    --hy-ref-color-primary-25: #003e66ff;
-    --hy-ref-color-primary-20: #003355ff;
-    --hy-ref-color-primary-15: #002844ff;
-    --hy-ref-color-primary-10: #001d34ff;
-    --hy-ref-color-primary-5: #001223ff;
-    --hy-ref-color-primary-0: #000000ff;
+    --hy-color-ref-primary-100: #ffffffff;
+    --hy-color-ref-primary-99: #fcfcffff;
+    --hy-color-ref-primary-98: #f7f9ffff;
+    --hy-color-ref-primary-95: #e8f1ffff;
+    --hy-color-ref-primary-90: #cfe5ffff;
+    --hy-color-ref-primary-80: #99cbffff;
+    --hy-color-ref-primary-70: #6bb0f2ff;
+    --hy-color-ref-primary-60: #4e96d5ff;
+    --hy-color-ref-primary-50: #2e7cbaff;
+    --hy-color-ref-primary-40: #00629eff;
+    --hy-color-ref-primary-35: #00568bff;
+    --hy-color-ref-primary-30: #004a78ff;
+    --hy-color-ref-primary-25: #003e66ff;
+    --hy-color-ref-primary-20: #003355ff;
+    --hy-color-ref-primary-15: #002844ff;
+    --hy-color-ref-primary-10: #001d34ff;
+    --hy-color-ref-primary-5: #001223ff;
+    --hy-color-ref-primary-0: #000000ff;
 
-    --hy-ref-color-secondary-100: #ffffffff;
-    --hy-ref-color-secondary-99: #fcfcffff;
-    --hy-ref-color-secondary-98: #f7f9ffff;
-    --hy-ref-color-secondary-95: #e8f1ffff;
-    --hy-ref-color-secondary-90: #d6e4f6ff;
-    --hy-ref-color-secondary-80: #bac8daff;
-    --hy-ref-color-secondary-70: #9facbeff;
-    --hy-ref-color-secondary-60: #8492a3ff;
-    --hy-ref-color-secondary-50: #6b7888ff;
-    --hy-ref-color-secondary-40: #52606fff;
-    --hy-ref-color-secondary-35: #465463ff;
-    --hy-ref-color-secondary-30: #3b4857ff;
-    --hy-ref-color-secondary-25: #303d4bff;
-    --hy-ref-color-secondary-20: #24323fff;
-    --hy-ref-color-secondary-15: #1a2734ff;
-    --hy-ref-color-secondary-10: #0f1d2aff;
-    --hy-ref-color-secondary-5: #05121fff;
-    --hy-ref-color-secondary-0: #000000ff;
+    --hy-color-ref-secondary-100: #ffffffff;
+    --hy-color-ref-secondary-99: #fcfcffff;
+    --hy-color-ref-secondary-98: #f7f9ffff;
+    --hy-color-ref-secondary-95: #e8f1ffff;
+    --hy-color-ref-secondary-90: #d6e4f6ff;
+    --hy-color-ref-secondary-80: #bac8daff;
+    --hy-color-ref-secondary-70: #9facbeff;
+    --hy-color-ref-secondary-60: #8492a3ff;
+    --hy-color-ref-secondary-50: #6b7888ff;
+    --hy-color-ref-secondary-40: #52606fff;
+    --hy-color-ref-secondary-35: #465463ff;
+    --hy-color-ref-secondary-30: #3b4857ff;
+    --hy-color-ref-secondary-25: #303d4bff;
+    --hy-color-ref-secondary-20: #24323fff;
+    --hy-color-ref-secondary-15: #1a2734ff;
+    --hy-color-ref-secondary-10: #0f1d2aff;
+    --hy-color-ref-secondary-5: #05121fff;
+    --hy-color-ref-secondary-0: #000000ff;
 
-    --hy-ref-color-tertiary-100: #ffffffff;
-    --hy-ref-color-tertiary-99: #f2fffbff;
-    --hy-ref-color-tertiary-98: #e4fff9ff;
-    --hy-ref-color-tertiary-95: #b3fff3ff;
-    --hy-ref-color-tertiary-90: #7df6e6ff;
-    --hy-ref-color-tertiary-80: #5edacaff;
-    --hy-ref-color-tertiary-70: #3cbeafff;
-    --hy-ref-color-tertiary-60: #02a294ff;
-    --hy-ref-color-tertiary-50: #00867aff;
-    --hy-ref-color-tertiary-40: #006a61ff;
-    --hy-ref-color-tertiary-35: #005d55ff;
-    --hy-ref-color-tertiary-30: #005049ff;
-    --hy-ref-color-tertiary-25: #00443dff;
-    --hy-ref-color-tertiary-20: #003732ff;
-    --hy-ref-color-tertiary-15: #002b27ff;
-    --hy-ref-color-tertiary-10: #00201cff;
-    --hy-ref-color-tertiary-5: #001412ff;
-    --hy-ref-color-tertiary-0: #000000ff;
+    --hy-color-ref-tertiary-100: #ffffffff;
+    --hy-color-ref-tertiary-99: #f2fffbff;
+    --hy-color-ref-tertiary-98: #e4fff9ff;
+    --hy-color-ref-tertiary-95: #b3fff3ff;
+    --hy-color-ref-tertiary-90: #7df6e6ff;
+    --hy-color-ref-tertiary-80: #5edacaff;
+    --hy-color-ref-tertiary-70: #3cbeafff;
+    --hy-color-ref-tertiary-60: #02a294ff;
+    --hy-color-ref-tertiary-50: #00867aff;
+    --hy-color-ref-tertiary-40: #006a61ff;
+    --hy-color-ref-tertiary-35: #005d55ff;
+    --hy-color-ref-tertiary-30: #005049ff;
+    --hy-color-ref-tertiary-25: #00443dff;
+    --hy-color-ref-tertiary-20: #003732ff;
+    --hy-color-ref-tertiary-15: #002b27ff;
+    --hy-color-ref-tertiary-10: #00201cff;
+    --hy-color-ref-tertiary-5: #001412ff;
+    --hy-color-ref-tertiary-0: #000000ff;
 
-    --hy-ref-color-error-100: #ffffffff;
-    --hy-ref-color-error-99: #fffbffff;
-    --hy-ref-color-error-98: #fff8f7ff;
-    --hy-ref-color-error-95: #ffedeaff;
-    --hy-ref-color-error-90: #ffdad6ff;
-    --hy-ref-color-error-80: #ffb4abff;
-    --hy-ref-color-error-70: #ff897dff;
-    --hy-ref-color-error-60: #ff5449ff;
-    --hy-ref-color-error-50: #de3730ff;
-    --hy-ref-color-error-40: #ba1a1aff;
-    --hy-ref-color-error-35: #a80710ff;
-    --hy-ref-color-error-30: #93000aff;
-    --hy-ref-color-error-25: #7e0007ff;
-    --hy-ref-color-error-20: #690005ff;
-    --hy-ref-color-error-15: #540003ff;
-    --hy-ref-color-error-10: #410002ff;
-    --hy-ref-color-error-5: #2d0001ff;
-    --hy-ref-color-error-0: #000000ff;
+    --hy-color-ref-error-100: #ffffffff;
+    --hy-color-ref-error-99: #fffbffff;
+    --hy-color-ref-error-98: #fff8f7ff;
+    --hy-color-ref-error-95: #ffedeaff;
+    --hy-color-ref-error-90: #ffdad6ff;
+    --hy-color-ref-error-80: #ffb4abff;
+    --hy-color-ref-error-70: #ff897dff;
+    --hy-color-ref-error-60: #ff5449ff;
+    --hy-color-ref-error-50: #de3730ff;
+    --hy-color-ref-error-40: #ba1a1aff;
+    --hy-color-ref-error-35: #a80710ff;
+    --hy-color-ref-error-30: #93000aff;
+    --hy-color-ref-error-25: #7e0007ff;
+    --hy-color-ref-error-20: #690005ff;
+    --hy-color-ref-error-15: #540003ff;
+    --hy-color-ref-error-10: #410002ff;
+    --hy-color-ref-error-5: #2d0001ff;
+    --hy-color-ref-error-0: #000000ff;
 
-    --hy-ref-color-neutral-100: #ffffffff;
-    --hy-ref-color-neutral-99: #fcfcffff;
-    --hy-ref-color-neutral-98: #f9f9fcff;
-    --hy-ref-color-neutral-95: #f1f0f4ff;
-    --hy-ref-color-neutral-90: #e2e2e5ff;
-    --hy-ref-color-neutral-80: #c6c6c9ff;
-    --hy-ref-color-neutral-70: #ababaeff;
-    --hy-ref-color-neutral-60: #909094ff;
-    --hy-ref-color-neutral-50: #76777aff;
-    --hy-ref-color-neutral-40: #5d5e61ff;
-    --hy-ref-color-neutral-35: #515255ff;
-    --hy-ref-color-neutral-30: #45474aff;
-    --hy-ref-color-neutral-25: #3a3b3eff;
-    --hy-ref-color-neutral-20: #2f3033ff;
-    --hy-ref-color-neutral-15: #242628ff;
-    --hy-ref-color-neutral-10: #1a1c1eff;
-    --hy-ref-color-neutral-5: #0f1113ff;
-    --hy-ref-color-neutral-0: #000000ff;
+    --hy-color-ref-neutral-100: #ffffffff;
+    --hy-color-ref-neutral-99: #fcfcffff;
+    --hy-color-ref-neutral-98: #f9f9fcff;
+    --hy-color-ref-neutral-95: #f1f0f4ff;
+    --hy-color-ref-neutral-90: #e2e2e5ff;
+    --hy-color-ref-neutral-80: #c6c6c9ff;
+    --hy-color-ref-neutral-70: #ababaeff;
+    --hy-color-ref-neutral-60: #909094ff;
+    --hy-color-ref-neutral-50: #76777aff;
+    --hy-color-ref-neutral-40: #5d5e61ff;
+    --hy-color-ref-neutral-35: #515255ff;
+    --hy-color-ref-neutral-30: #45474aff;
+    --hy-color-ref-neutral-25: #3a3b3eff;
+    --hy-color-ref-neutral-20: #2f3033ff;
+    --hy-color-ref-neutral-15: #242628ff;
+    --hy-color-ref-neutral-10: #1a1c1eff;
+    --hy-color-ref-neutral-5: #0f1113ff;
+    --hy-color-ref-neutral-0: #000000ff;
 
-    --hy-ref-color-neutral-variant-100: #ffffffff;
-    --hy-ref-color-neutral-variant-99: #fcfcffff;
-    --hy-ref-color-neutral-variant-98: #f7f9ffff;
-    --hy-ref-color-neutral-variant-95: #edf1f9ff;
-    --hy-ref-color-neutral-variant-90: #dfe3ebff;
-    --hy-ref-color-neutral-variant-80: #c2c7ceff;
-    --hy-ref-color-neutral-variant-70: #a7abb3ff;
-    --hy-ref-color-neutral-variant-60: #8c9198ff;
-    --hy-ref-color-neutral-variant-50: #73777eff;
-    --hy-ref-color-neutral-variant-40: #5a5f65ff;
-    --hy-ref-color-neutral-variant-35: #4e5359ff;
-    --hy-ref-color-neutral-variant-30: #42474eff;
-    --hy-ref-color-neutral-variant-25: #373c42ff;
-    --hy-ref-color-neutral-variant-20: #2c3137ff;
-    --hy-ref-color-neutral-variant-15: #21262cff;
-    --hy-ref-color-neutral-variant-10: #171c22ff;
-    --hy-ref-color-neutral-variant-5: #0c1117ff;
-    --hy-ref-color-neutral-variant-0: #000000ff;
+    --hy-color-ref-neutral-variant-100: #ffffffff;
+    --hy-color-ref-neutral-variant-99: #fcfcffff;
+    --hy-color-ref-neutral-variant-98: #f7f9ffff;
+    --hy-color-ref-neutral-variant-95: #edf1f9ff;
+    --hy-color-ref-neutral-variant-90: #dfe3ebff;
+    --hy-color-ref-neutral-variant-80: #c2c7ceff;
+    --hy-color-ref-neutral-variant-70: #a7abb3ff;
+    --hy-color-ref-neutral-variant-60: #8c9198ff;
+    --hy-color-ref-neutral-variant-50: #73777eff;
+    --hy-color-ref-neutral-variant-40: #5a5f65ff;
+    --hy-color-ref-neutral-variant-35: #4e5359ff;
+    --hy-color-ref-neutral-variant-30: #42474eff;
+    --hy-color-ref-neutral-variant-25: #373c42ff;
+    --hy-color-ref-neutral-variant-20: #2c3137ff;
+    --hy-color-ref-neutral-variant-15: #21262cff;
+    --hy-color-ref-neutral-variant-10: #171c22ff;
+    --hy-color-ref-neutral-variant-5: #0c1117ff;
+    --hy-color-ref-neutral-variant-0: #000000ff;
 
-    --hy-ref-color-warning-100: #ffffffff;
-    --hy-ref-color-warning-99: #fffbffff;
-    --hy-ref-color-warning-98: #fff8f4ff;
-    --hy-ref-color-warning-95: #fff0eaff;
-    --hy-ref-color-warning-90: #ffe3d7ff;
-    --hy-ref-color-warning-80: #ffc8b1ff;
-    --hy-ref-color-warning-70: #ffaa85ff;
-    --hy-ref-color-warning-60: #ff8a55ff;
-    --hy-ref-color-warning-50: #ff6925ff;
-    --hy-ref-color-warning-40: #ca4700ff;
-    --hy-ref-color-warning-35: #7a4600ff;
-    --hy-ref-color-warning-30: #772f00ff;
-    --hy-ref-color-warning-25: #593200ff;
-    --hy-ref-color-warning-20: #4b2200ff;
-    --hy-ref-color-warning-15: #3b1f00ff;
-    --hy-ref-color-warning-10: #2c1600ff;
-    --hy-ref-color-warning-5: #1d0d00ff;
-    --hy-ref-color-warning-0: #000000ff;
+    --hy-color-ref-warning-100: #ffffffff;
+    --hy-color-ref-warning-99: #fffbffff;
+    --hy-color-ref-warning-98: #fff8f4ff;
+    --hy-color-ref-warning-95: #fff0eaff;
+    --hy-color-ref-warning-90: #ffe3d7ff;
+    --hy-color-ref-warning-80: #ffc8b1ff;
+    --hy-color-ref-warning-70: #ffaa85ff;
+    --hy-color-ref-warning-60: #ff8a55ff;
+    --hy-color-ref-warning-50: #ff6925ff;
+    --hy-color-ref-warning-40: #ca4700ff;
+    --hy-color-ref-warning-35: #7a4600ff;
+    --hy-color-ref-warning-30: #772f00ff;
+    --hy-color-ref-warning-25: #593200ff;
+    --hy-color-ref-warning-20: #4b2200ff;
+    --hy-color-ref-warning-15: #3b1f00ff;
+    --hy-color-ref-warning-10: #2c1600ff;
+    --hy-color-ref-warning-5: #1d0d00ff;
+    --hy-color-ref-warning-0: #000000ff;
 
-    --hy-ref-color-blue-100: #ffffffff;
-    --hy-ref-color-blue-99: #fffbffff;
-    --hy-ref-color-blue-98: #fbf8ffff;
-    --hy-ref-color-blue-95: #f1efffff;
-    --hy-ref-color-blue-90: #e0e0ffff;
-    --hy-ref-color-blue-80: #bec2ffff;
-    --hy-ref-color-blue-70: #9da3ffff;
-    --hy-ref-color-blue-60: #7c84ffff;
-    --hy-ref-color-blue-50: #5a64ffff;
-    --hy-ref-color-blue-40: #343dffff;
-    --hy-ref-color-blue-35: #1a21ffff;
-    --hy-ref-color-blue-30: #0000efff;
-    --hy-ref-color-blue-25: #0001cdff;
-    --hy-ref-color-blue-20: #0001acff;
-    --hy-ref-color-blue-15: #00018dff;
-    --hy-ref-color-blue-10: #00006eff;
-    --hy-ref-color-blue-5: #000037ff;
-    --hy-ref-color-blue-0: #000000ff;
+    --hy-color-ref-blue-100: #ffffffff;
+    --hy-color-ref-blue-99: #fffbffff;
+    --hy-color-ref-blue-98: #fbf8ffff;
+    --hy-color-ref-blue-95: #f1efffff;
+    --hy-color-ref-blue-90: #e0e0ffff;
+    --hy-color-ref-blue-80: #bec2ffff;
+    --hy-color-ref-blue-70: #9da3ffff;
+    --hy-color-ref-blue-60: #7c84ffff;
+    --hy-color-ref-blue-50: #5a64ffff;
+    --hy-color-ref-blue-40: #343dffff;
+    --hy-color-ref-blue-35: #1a21ffff;
+    --hy-color-ref-blue-30: #0000efff;
+    --hy-color-ref-blue-25: #0001cdff;
+    --hy-color-ref-blue-20: #0001acff;
+    --hy-color-ref-blue-15: #00018dff;
+    --hy-color-ref-blue-10: #00006eff;
+    --hy-color-ref-blue-5: #000037ff;
+    --hy-color-ref-blue-0: #000000ff;
 
-    --hy-ref-color-red-100: #ffffffff;
-    --hy-ref-color-red-99: #fffbfbff;
-    --hy-ref-color-red-98: #fffbfbff;
-    --hy-ref-color-red-95: #fff1f1ff;
-    --hy-ref-color-red-90: #ffe0e0ff;
-    --hy-ref-color-red-80: #ffbebeff;
-    --hy-ref-color-red-70: #ff9d9dff;
-    --hy-ref-color-red-60: #ff7c7cff;
-    --hy-ref-color-red-50: #ff5a5aff;
-    --hy-ref-color-red-40: #ff3434ff;
-    --hy-ref-color-red-35: #ff1a1aff;
-    --hy-ref-color-red-30: #ef0000ff;
-    --hy-ref-color-red-25: #cd0000ff;
-    --hy-ref-color-red-20: #ac0000ff;
-    --hy-ref-color-red-10: #6e0000ff;
-    --hy-ref-color-red-0: #000000ff;
+    --hy-color-ref-red-100: #ffffffff;
+    --hy-color-ref-red-99: #fffbfbff;
+    --hy-color-ref-red-98: #fffbfbff;
+    --hy-color-ref-red-95: #fff1f1ff;
+    --hy-color-ref-red-90: #ffe0e0ff;
+    --hy-color-ref-red-80: #ffbebeff;
+    --hy-color-ref-red-70: #ff9d9dff;
+    --hy-color-ref-red-60: #ff7c7cff;
+    --hy-color-ref-red-50: #ff5a5aff;
+    --hy-color-ref-red-40: #ff3434ff;
+    --hy-color-ref-red-35: #ff1a1aff;
+    --hy-color-ref-red-30: #ef0000ff;
+    --hy-color-ref-red-25: #cd0000ff;
+    --hy-color-ref-red-20: #ac0000ff;
+    --hy-color-ref-red-10: #6e0000ff;
+    --hy-color-ref-red-0: #000000ff;
 
-    --hy-ref-color-green-100: #ffffffff;
-    --hy-ref-color-green-99: #fbfffbff;
-    --hy-ref-color-green-98: #fbfffbff;
-    --hy-ref-color-green-95: #f1fff1ff;
-    --hy-ref-color-green-90: #e0ffe0ff;
-    --hy-ref-color-green-80: #beffbeff;
-    --hy-ref-color-green-70: #9dff9dff;
-    --hy-ref-color-green-60: #7cff7cff;
-    --hy-ref-color-green-50: #5aff5aff;
-    --hy-ref-color-green-40: #34ff34ff;
-    --hy-ref-color-green-35: #1aff1aff;
-    --hy-ref-color-green-30: #00ef00ff;
-    --hy-ref-color-green-25: #00cd00ff;
-    --hy-ref-color-green-20: #00ac00ff;
-    --hy-ref-color-green-10: #006e00ff;
-    --hy-ref-color-green-0: #000000ff;
+    --hy-color-ref-green-100: #ffffffff;
+    --hy-color-ref-green-99: #fbfffbff;
+    --hy-color-ref-green-98: #fbfffbff;
+    --hy-color-ref-green-95: #f1fff1ff;
+    --hy-color-ref-green-90: #e0ffe0ff;
+    --hy-color-ref-green-80: #beffbeff;
+    --hy-color-ref-green-70: #9dff9dff;
+    --hy-color-ref-green-60: #7cff7cff;
+    --hy-color-ref-green-50: #5aff5aff;
+    --hy-color-ref-green-40: #34ff34ff;
+    --hy-color-ref-green-35: #1aff1aff;
+    --hy-color-ref-green-30: #00ef00ff;
+    --hy-color-ref-green-25: #00cd00ff;
+    --hy-color-ref-green-20: #00ac00ff;
+    --hy-color-ref-green-10: #006e00ff;
+    --hy-color-ref-green-0: #000000ff;
 
-    --hy-ref-color-yellow-100: #ffffffff;
-    --hy-ref-color-yellow-99: #fffffbff;
-    --hy-ref-color-yellow-98: #fffffbff;
-    --hy-ref-color-yellow-95: #fffff1ff;
-    --hy-ref-color-yellow-90: #ffffe0ff;
-    --hy-ref-color-yellow-80: #ffffbeff;
-    --hy-ref-color-yellow-70: #ffff9dff;
-    --hy-ref-color-yellow-60: #ffff7cff;
-    --hy-ref-color-yellow-50: #ffff5aff;
-    --hy-ref-color-yellow-40: #ffff34ff;
-    --hy-ref-color-yellow-35: #ffff1aff;
-    --hy-ref-color-yellow-30: #efef00ff;
-    --hy-ref-color-yellow-25: #cdcd00ff;
-    --hy-ref-color-yellow-20: #acac00ff;
-    --hy-ref-color-yellow-10: #6e6e00ff;
-    --hy-ref-color-yellow-0: #000000ff;
+    --hy-color-ref-yellow-100: #ffffffff;
+    --hy-color-ref-yellow-99: #fffffbff;
+    --hy-color-ref-yellow-98: #fffffbff;
+    --hy-color-ref-yellow-95: #fffff1ff;
+    --hy-color-ref-yellow-90: #ffffe0ff;
+    --hy-color-ref-yellow-80: #ffffbeff;
+    --hy-color-ref-yellow-70: #ffff9dff;
+    --hy-color-ref-yellow-60: #ffff7cff;
+    --hy-color-ref-yellow-50: #ffff5aff;
+    --hy-color-ref-yellow-40: #ffff34ff;
+    --hy-color-ref-yellow-35: #ffff1aff;
+    --hy-color-ref-yellow-30: #efef00ff;
+    --hy-color-ref-yellow-25: #cdcd00ff;
+    --hy-color-ref-yellow-20: #acac00ff;
+    --hy-color-ref-yellow-10: #6e6e00ff;
+    --hy-color-ref-yellow-0: #000000ff;
 
-    --hy-ref-color-cyan-100: #ffffffff;
-    --hy-ref-color-cyan-99: #fbffffff;
-    --hy-ref-color-cyan-98: #fbffffff;
-    --hy-ref-color-cyan-95: #f1ffffff;
-    --hy-ref-color-cyan-90: #e0ffffff;
-    --hy-ref-color-cyan-80: #beffffff;
-    --hy-ref-color-cyan-70: #9dffffff;
-    --hy-ref-color-cyan-60: #7cffffff;
-    --hy-ref-color-cyan-50: #5affffff;
-    --hy-ref-color-cyan-40: #34ffffff;
-    --hy-ref-color-cyan-35: #1affffff;
-    --hy-ref-color-cyan-30: #00efefff;
-    --hy-ref-color-cyan-25: #00cdcdff;
-    --hy-ref-color-cyan-20: #00acacff;
-    --hy-ref-color-cyan-10: #006e6eff;
-    --hy-ref-color-cyan-0: #000000ff;
+    --hy-color-ref-cyan-100: #ffffffff;
+    --hy-color-ref-cyan-99: #fbffffff;
+    --hy-color-ref-cyan-98: #fbffffff;
+    --hy-color-ref-cyan-95: #f1ffffff;
+    --hy-color-ref-cyan-90: #e0ffffff;
+    --hy-color-ref-cyan-80: #beffffff;
+    --hy-color-ref-cyan-70: #9dffffff;
+    --hy-color-ref-cyan-60: #7cffffff;
+    --hy-color-ref-cyan-50: #5affffff;
+    --hy-color-ref-cyan-40: #34ffffff;
+    --hy-color-ref-cyan-35: #1affffff;
+    --hy-color-ref-cyan-30: #00efefff;
+    --hy-color-ref-cyan-25: #00cdcdff;
+    --hy-color-ref-cyan-20: #00acacff;
+    --hy-color-ref-cyan-10: #006e6eff;
+    --hy-color-ref-cyan-0: #000000ff;
 
-    --hy-ref-color-magenta-100: #ffffffff;
-    --hy-ref-color-magenta-99: #fffbffff;
-    --hy-ref-color-magenta-98: #fffbffff;
-    --hy-ref-color-magenta-95: #fff1ffff;
-    --hy-ref-color-magenta-90: #ffe0ffff;
-    --hy-ref-color-magenta-80: #ffbeffff;
-    --hy-ref-color-magenta-70: #ff9dffff;
-    --hy-ref-color-magenta-60: #ff7cffff;
-    --hy-ref-color-magenta-50: #ff5affff;
-    --hy-ref-color-magenta-40: #ff34ffff;
-    --hy-ref-color-magenta-35: #ff1affff;
-    --hy-ref-color-magenta-30: #ef00efff;
-    --hy-ref-color-magenta-25: #cd00cdff;
-    --hy-ref-color-magenta-20: #ac00acff;
-    --hy-ref-color-magenta-10: #6e006eff;
-    --hy-ref-color-magenta-0: #000000ff;
+    --hy-color-ref-magenta-100: #ffffffff;
+    --hy-color-ref-magenta-99: #fffbffff;
+    --hy-color-ref-magenta-98: #fffbffff;
+    --hy-color-ref-magenta-95: #fff1ffff;
+    --hy-color-ref-magenta-90: #ffe0ffff;
+    --hy-color-ref-magenta-80: #ffbeffff;
+    --hy-color-ref-magenta-70: #ff9dffff;
+    --hy-color-ref-magenta-60: #ff7cffff;
+    --hy-color-ref-magenta-50: #ff5affff;
+    --hy-color-ref-magenta-40: #ff34ffff;
+    --hy-color-ref-magenta-35: #ff1affff;
+    --hy-color-ref-magenta-30: #ef00efff;
+    --hy-color-ref-magenta-25: #cd00cdff;
+    --hy-color-ref-magenta-20: #ac00acff;
+    --hy-color-ref-magenta-10: #6e006eff;
+    --hy-color-ref-magenta-0: #000000ff;
 
-    --hy-ref-color-orange-100: #ffffffff;
-    --hy-ref-color-orange-99: #fffbffff;
-    --hy-ref-color-orange-98: #fff8f5ff;
-    --hy-ref-color-orange-95: #ffede4ff;
-    --hy-ref-color-orange-90: #ffdcc7ff;
-    --hy-ref-color-orange-80: #ffb787ff;
-    --hy-ref-color-orange-70: #ff8e36ff;
-    --hy-ref-color-orange-60: #e37100ff;
-    --hy-ref-color-orange-50: #bc5d00ff;
-    --hy-ref-color-orange-40: #964900ff;
-    --hy-ref-color-orange-35: #843f00ff;
-    --hy-ref-color-orange-30: #723600ff;
-    --hy-ref-color-orange-25: #612d00ff;
-    --hy-ref-color-orange-20: #502400ff;
-    --hy-ref-color-orange-10: #311300ff;
-    --hy-ref-color-orange-0: #000000ff;
+    --hy-color-ref-orange-100: #ffffffff;
+    --hy-color-ref-orange-99: #fffbffff;
+    --hy-color-ref-orange-98: #fff8f5ff;
+    --hy-color-ref-orange-95: #ffede4ff;
+    --hy-color-ref-orange-90: #ffdcc7ff;
+    --hy-color-ref-orange-80: #ffb787ff;
+    --hy-color-ref-orange-70: #ff8e36ff;
+    --hy-color-ref-orange-60: #e37100ff;
+    --hy-color-ref-orange-50: #bc5d00ff;
+    --hy-color-ref-orange-40: #964900ff;
+    --hy-color-ref-orange-35: #843f00ff;
+    --hy-color-ref-orange-30: #723600ff;
+    --hy-color-ref-orange-25: #612d00ff;
+    --hy-color-ref-orange-20: #502400ff;
+    --hy-color-ref-orange-10: #311300ff;
+    --hy-color-ref-orange-0: #000000ff;
 
-    --hy-ref-color-chartreuse-100: #ffffffff;
-    --hy-ref-color-chartreuse-99: #f8ffebff;
-    --hy-ref-color-chartreuse-98: #eeffdcff;
-    --hy-ref-color-chartreuse-95: #cfffa9ff;
-    --hy-ref-color-chartreuse-90: #82ff10ff;
-    --hy-ref-color-chartreuse-80: #70e000ff;
-    --hy-ref-color-chartreuse-70: #60c100ff;
-    --hy-ref-color-chartreuse-60: #50a400ff;
-    --hy-ref-color-chartreuse-50: #418700ff;
-    --hy-ref-color-chartreuse-40: #326b00ff;
-    --hy-ref-color-chartreuse-35: #2b5e00ff;
-    --hy-ref-color-chartreuse-30: #245100ff;
-    --hy-ref-color-chartreuse-25: #1e4400ff;
-    --hy-ref-color-chartreuse-20: #173800ff;
-    --hy-ref-color-chartreuse-10: #0b2000ff;
-    --hy-ref-color-chartreuse-0: #000000ff;
+    --hy-color-ref-chartreuse-100: #ffffffff;
+    --hy-color-ref-chartreuse-99: #f8ffebff;
+    --hy-color-ref-chartreuse-98: #eeffdcff;
+    --hy-color-ref-chartreuse-95: #cfffa9ff;
+    --hy-color-ref-chartreuse-90: #82ff10ff;
+    --hy-color-ref-chartreuse-80: #70e000ff;
+    --hy-color-ref-chartreuse-70: #60c100ff;
+    --hy-color-ref-chartreuse-60: #50a400ff;
+    --hy-color-ref-chartreuse-50: #418700ff;
+    --hy-color-ref-chartreuse-40: #326b00ff;
+    --hy-color-ref-chartreuse-35: #2b5e00ff;
+    --hy-color-ref-chartreuse-30: #245100ff;
+    --hy-color-ref-chartreuse-25: #1e4400ff;
+    --hy-color-ref-chartreuse-20: #173800ff;
+    --hy-color-ref-chartreuse-10: #0b2000ff;
+    --hy-color-ref-chartreuse-0: #000000ff;
 
-    --hy-ref-color-spring-green-100: #ffffffff;
-    --hy-ref-color-spring-green-99: #f5fff2ff;
-    --hy-ref-color-spring-green-98: #eaffe9ff;
-    --hy-ref-color-spring-green-95: #c4ffcbff;
-    --hy-ref-color-spring-green-90: #63ff94ff;
-    --hy-ref-color-spring-green-80: #00e472ff;
-    --hy-ref-color-spring-green-70: #00c561ff;
-    --hy-ref-color-spring-green-60: #00a751ff;
-    --hy-ref-color-spring-green-50: #008942ff;
-    --hy-ref-color-spring-green-40: #006d33ff;
-    --hy-ref-color-spring-green-35: #00602cff;
-    --hy-ref-color-spring-green-30: #005225ff;
-    --hy-ref-color-spring-green-25: #00461eff;
-    --hy-ref-color-spring-green-20: #003917ff;
-    --hy-ref-color-spring-green-10: #00210bff;
-    --hy-ref-color-spring-green-0: #000000ff;
+    --hy-color-ref-spring-green-100: #ffffffff;
+    --hy-color-ref-spring-green-99: #f5fff2ff;
+    --hy-color-ref-spring-green-98: #eaffe9ff;
+    --hy-color-ref-spring-green-95: #c4ffcbff;
+    --hy-color-ref-spring-green-90: #63ff94ff;
+    --hy-color-ref-spring-green-80: #00e472ff;
+    --hy-color-ref-spring-green-70: #00c561ff;
+    --hy-color-ref-spring-green-60: #00a751ff;
+    --hy-color-ref-spring-green-50: #008942ff;
+    --hy-color-ref-spring-green-40: #006d33ff;
+    --hy-color-ref-spring-green-35: #00602cff;
+    --hy-color-ref-spring-green-30: #005225ff;
+    --hy-color-ref-spring-green-25: #00461eff;
+    --hy-color-ref-spring-green-20: #003917ff;
+    --hy-color-ref-spring-green-10: #00210bff;
+    --hy-color-ref-spring-green-0: #000000ff;
 
-    --hy-ref-color-azure-100: #ffffffff;
-    --hy-ref-color-azure-99: #fdfbffff;
-    --hy-ref-color-azure-98: #f9f9ffff;
-    --hy-ref-color-azure-95: #ecf0ffff;
-    --hy-ref-color-azure-90: #d7e3ffff;
-    --hy-ref-color-azure-80: #abc7ffff;
-    --hy-ref-color-azure-70: #7cabffff;
-    --hy-ref-color-azure-60: #438fffff;
-    --hy-ref-color-azure-50: #0074e9ff;
-    --hy-ref-color-azure-40: #005cbbff;
-    --hy-ref-color-azure-35: #0050a5ff;
-    --hy-ref-color-azure-30: #00458fff;
-    --hy-ref-color-azure-25: #003a7aff;
-    --hy-ref-color-azure-20: #002f65ff;
-    --hy-ref-color-azure-10: #001b3fff;
-    --hy-ref-color-azure-0: #000000ff;
+    --hy-color-ref-azure-100: #ffffffff;
+    --hy-color-ref-azure-99: #fdfbffff;
+    --hy-color-ref-azure-98: #f9f9ffff;
+    --hy-color-ref-azure-95: #ecf0ffff;
+    --hy-color-ref-azure-90: #d7e3ffff;
+    --hy-color-ref-azure-80: #abc7ffff;
+    --hy-color-ref-azure-70: #7cabffff;
+    --hy-color-ref-azure-60: #438fffff;
+    --hy-color-ref-azure-50: #0074e9ff;
+    --hy-color-ref-azure-40: #005cbbff;
+    --hy-color-ref-azure-35: #0050a5ff;
+    --hy-color-ref-azure-30: #00458fff;
+    --hy-color-ref-azure-25: #003a7aff;
+    --hy-color-ref-azure-20: #002f65ff;
+    --hy-color-ref-azure-10: #001b3fff;
+    --hy-color-ref-azure-0: #000000ff;
 
-    --hy-ref-color-violet-100: #ffffffff;
-    --hy-ref-color-violet-99: #fffbffff;
-    --hy-ref-color-violet-98: #fef7ffff;
-    --hy-ref-color-violet-95: #f7edffff;
-    --hy-ref-color-violet-90: #ecdcffff;
-    --hy-ref-color-violet-80: #d5baffff;
-    --hy-ref-color-violet-70: #bf98ffff;
-    --hy-ref-color-violet-60: #a974ffff;
-    --hy-ref-color-violet-50: #944affff;
-    --hy-ref-color-violet-40: #7d00faff;
-    --hy-ref-color-violet-35: #6e00dcff;
-    --hy-ref-color-violet-30: #5f00c0ff;
-    --hy-ref-color-violet-25: #5000a4ff;
-    --hy-ref-color-violet-20: #42008aff;
-    --hy-ref-color-violet-10: #270057ff;
-    --hy-ref-color-violet-0: #000000ff;
+    --hy-color-ref-violet-100: #ffffffff;
+    --hy-color-ref-violet-99: #fffbffff;
+    --hy-color-ref-violet-98: #fef7ffff;
+    --hy-color-ref-violet-95: #f7edffff;
+    --hy-color-ref-violet-90: #ecdcffff;
+    --hy-color-ref-violet-80: #d5baffff;
+    --hy-color-ref-violet-70: #bf98ffff;
+    --hy-color-ref-violet-60: #a974ffff;
+    --hy-color-ref-violet-50: #944affff;
+    --hy-color-ref-violet-40: #7d00faff;
+    --hy-color-ref-violet-35: #6e00dcff;
+    --hy-color-ref-violet-30: #5f00c0ff;
+    --hy-color-ref-violet-25: #5000a4ff;
+    --hy-color-ref-violet-20: #42008aff;
+    --hy-color-ref-violet-10: #270057ff;
+    --hy-color-ref-violet-0: #000000ff;
 
-    --hy-ref-color-rose-100: #ffffffff;
-    --hy-ref-color-rose-99: #fffbffff;
-    --hy-ref-color-rose-98: #fff8f8ff;
-    --hy-ref-color-rose-95: #ffecefff;
-    --hy-ref-color-rose-90: #ffd9e1ff;
-    --hy-ref-color-rose-80: #ffb1c5ff;
-    --hy-ref-color-rose-70: #ff84a9ff;
-    --hy-ref-color-rose-60: #ff4a8eff;
-    --hy-ref-color-rose-50: #e80074ff;
-    --hy-ref-color-rose-40: #ba005cff;
-    --hy-ref-color-rose-35: #a40050ff;
-    --hy-ref-color-rose-30: #8f0045ff;
-    --hy-ref-color-rose-25: #7a003aff;
-    --hy-ref-color-rose-20: #65002fff;
-    --hy-ref-color-rose-10: #3f001bff;
-    --hy-ref-color-rose-0: #000000ff;
+    --hy-color-ref-rose-100: #ffffffff;
+    --hy-color-ref-rose-99: #fffbffff;
+    --hy-color-ref-rose-98: #fff8f8ff;
+    --hy-color-ref-rose-95: #ffecefff;
+    --hy-color-ref-rose-90: #ffd9e1ff;
+    --hy-color-ref-rose-80: #ffb1c5ff;
+    --hy-color-ref-rose-70: #ff84a9ff;
+    --hy-color-ref-rose-60: #ff4a8eff;
+    --hy-color-ref-rose-50: #e80074ff;
+    --hy-color-ref-rose-40: #ba005cff;
+    --hy-color-ref-rose-35: #a40050ff;
+    --hy-color-ref-rose-30: #8f0045ff;
+    --hy-color-ref-rose-25: #7a003aff;
+    --hy-color-ref-rose-20: #65002fff;
+    --hy-color-ref-rose-10: #3f001bff;
+    --hy-color-ref-rose-0: #000000ff;
+
 
     /**
     * ==========================================================================
@@ -357,215 +358,377 @@
     * ==========================================================================
     */
     --hy-color-primary: light-dark(
-        var(--hy-ref-color-primary-40),
-        var(--hy-ref-color-primary-80)
+        var(--hy-color-ref-primary-40),
+         var(--hy-color-ref-primary-80)
     );
     --hy-color-on-primary: light-dark(
-        var(--hy-ref-color-primary-100),
-        var(--hy-ref-color-primary-20)
+        var(--hy-color-ref-primary-100),
+         var(--hy-color-ref-primary-20)
     );
     --hy-color-primary-container: light-dark(
-        var(--hy-ref-color-primary-90),
-        var(--hy-ref-color-primary-30)
+        var(--hy-color-ref-primary-90),
+         var(--hy-color-ref-primary-30)
     );
     --hy-color-on-primary-container: light-dark(
-        var(--hy-ref-color-primary-10),
-        var(--hy-ref-color-primary-90)
+        var(--hy-color-ref-primary-10),
+         var(--hy-color-ref-primary-90)
     );
     --hy-color-secondary: light-dark(
-        var(--hy-ref-color-secondary-40),
-        var(--hy-ref-color-secondary-80)
+        var(--hy-color-ref-secondary-40),
+         var(--hy-color-ref-secondary-80)
     );
     --hy-color-on-secondary: light-dark(
-        var(--hy-ref-color-secondary-100),
-        var(--hy-ref-color-secondary-20)
+        var(--hy-color-ref-secondary-100),
+         var(--hy-color-ref-secondary-20)
     );
     --hy-color-secondary-container: light-dark(
-        var(--hy-ref-color-secondary-90),
-        var(--hy-ref-color-secondary-30)
+        var(--hy-color-ref-secondary-90),
+         var(--hy-color-ref-secondary-30)
     );
     --hy-color-on-secondary-container: light-dark(
-        var(--hy-ref-color-secondary-10),
-        var(--hy-ref-color-secondary-90)
+        var(--hy-color-ref-secondary-10),
+         var(--hy-color-ref-secondary-90)
     );
     --hy-color-tertiary: light-dark(
-        var(--hy-ref-color-tertiary-40),
-        var(--hy-ref-color-tertiary-80)
+        var(--hy-color-ref-tertiary-40),
+         var(--hy-color-ref-tertiary-80)
     );
     --hy-color-on-tertiary: light-dark(
-        var(--hy-ref-color-tertiary-100),
-        var(--hy-ref-color-tertiary-20)
+        var(--hy-color-ref-tertiary-100),
+         var(--hy-color-ref-tertiary-20)
     );
     --hy-color-tertiary-container: light-dark(
-        var(--hy-ref-color-tertiary-90),
-        var(--hy-ref-color-tertiary-30)
+        var(--hy-color-ref-tertiary-90),
+         var(--hy-color-ref-tertiary-30)
     );
     --hy-color-on-tertiary-container: light-dark(
-        var(--hy-ref-color-tertiary-10),
-        var(--hy-ref-color-tertiary-90)
+        var(--hy-color-ref-tertiary-10),
+         var(--hy-color-ref-tertiary-90)
     );
     --hy-color-error: light-dark(
-        var(--hy-ref-color-error-40),
-        var(--hy-ref-color-error-80)
+        var(--hy-color-ref-error-40),
+         var(--hy-color-ref-error-80)
     );
     --hy-color-on-error: light-dark(
-        var(--hy-ref-color-error-100),
-        var(--hy-ref-color-error-20)
+        var(--hy-color-ref-error-100),
+         var(--hy-color-ref-error-20)
     );
     --hy-color-error-container: light-dark(
-        var(--hy-ref-color-error-90),
-        var(--hy-ref-color-error-30)
+        var(--hy-color-ref-error-90),
+         var(--hy-color-ref-error-30)
     );
     --hy-color-on-error-container: light-dark(
-        var(--hy-ref-color-error-10),
-        var(--hy-ref-color-error-90)
+        var(--hy-color-ref-error-10),
+         var(--hy-color-ref-error-90)
     );
     --hy-color-warning: light-dark(
-        var(--hy-ref-color-warning-40),
-        var(--hy-ref-color-warning-80)
+        var(--hy-color-ref-warning-40),
+         var(--hy-color-ref-warning-80)
     );
     --hy-color-on-warning: light-dark(
-        var(--hy-ref-color-warning-100),
-        var(--hy-ref-color-warning-20)
+        var(--hy-color-ref-warning-100),
+         var(--hy-color-ref-warning-20)
     );
     --hy-color-warning-container: light-dark(
-        var(--hy-ref-color-warning-90),
-        var(--hy-ref-color-warning-30)
+        var(--hy-color-ref-warning-90),
+         var(--hy-color-ref-warning-30)
     );
     --hy-color-on-warning-container: light-dark(
-        var(--hy-ref-color-warning-10),
-        var(--hy-ref-color-warning-90)
+        var(--hy-color-ref-warning-10),
+         var(--hy-color-ref-warning-90)
     );
     --hy-color-background: light-dark(
-        var(--hy-ref-color-neutral-99),
-        var(--hy-ref-color-neutral-10)
+        var(--hy-color-ref-neutral-99),
+         var(--hy-color-ref-neutral-10)
     );
     --hy-color-on-background: light-dark(
-        var(--hy-ref-color-neutral-10),
-        var(--hy-ref-color-neutral-90)
+        var(--hy-color-ref-neutral-10),
+         var(--hy-color-ref-neutral-90)
     );
     --hy-color-surface: light-dark(
-        var(--hy-ref-color-neutral-98),
-        var(--hy-ref-color-neutral-10)
+        var(--hy-color-ref-neutral-98),
+         var(--hy-color-ref-neutral-10)
     );
     --hy-color-on-surface: light-dark(
-        var(--hy-ref-color-neutral-10),
-        var(--hy-ref-color-neutral-90)
+        var(--hy-color-ref-neutral-10),
+         var(--hy-color-ref-neutral-90)
     );
     --hy-color-surface-variant: light-dark(
-        var(--hy-ref-color-neutral-variant-90),
-        var(--hy-ref-color-neutral-variant-30)
+        var(--hy-color-ref-neutral-variant-90),
+         var(--hy-color-ref-neutral-variant-30)
     );
     --hy-color-on-surface-variant: light-dark(
-        var(--hy-ref-color-neutral-variant-30),
-        var(--hy-ref-color-neutral-variant-80)
+        var(--hy-color-ref-neutral-variant-30),
+         var(--hy-color-ref-neutral-variant-80)
     );
     --hy-color-inverse-surface: light-dark(
-        var(--hy-ref-color-neutral-20),
-        var(--hy-ref-color-neutral-90)
+        var(--hy-color-ref-neutral-20),
+         var(--hy-color-ref-neutral-90)
     );
     --hy-color-inverse-on-surface: light-dark(
-        var(--hy-ref-color-neutral-95),
-        var(--hy-ref-color-neutral-20)
+        var(--hy-color-ref-neutral-95),
+         var(--hy-color-ref-neutral-20)
     );
     --hy-color-inverse-primary: light-dark(
-        var(--hy-ref-color-primary-80),
-        var(--hy-ref-color-primary-40)
+        var(--hy-color-ref-primary-80),
+         var(--hy-color-ref-primary-40)
     );
     --hy-color-outline: light-dark(
-        var(--hy-ref-color-neutral-50),
-        var(--hy-ref-color-neutral-60)
+        var(--hy-color-ref-neutral-50),
+         var(--hy-color-ref-neutral-60)
     );
     --hy-color-outline-variant: light-dark(
-        var(--hy-ref-color-neutral-variant-80),
-        var(--hy-ref-color-neutral-variant-30)
+        var(--hy-color-ref-neutral-variant-80),
+         var(--hy-color-ref-neutral-variant-30)
     );
     --hy-color-shadow: light-dark(
-        var(--hy-ref-color-neutral-0),
-        var(--hy-ref-color-neutral-0)
+        var(--hy-color-ref-neutral-0),
+         var(--hy-color-ref-neutral-0)
     );
     --hy-color-scrim: light-dark(
-        var(--hy-ref-color-neutral-0),
-        var(--hy-ref-color-neutral-0)
+        var(--hy-color-ref-neutral-0),
+         var(--hy-color-ref-neutral-0)
     );
     --hy-color-surface-tint: light-dark(
-        var(--hy-ref-color-primary-40),
-        var(--hy-ref-color-primary-80)
+        var(--hy-color-ref-primary-40),
+         var(--hy-color-ref-primary-80)
     );
     --hy-color-primary-fixed: light-dark(
-        var(--hy-ref-color-primary-90),
-        var(--hy-ref-color-primary-90)
+        var(--hy-color-ref-primary-90),
+         var(--hy-color-ref-primary-90)
     );
     --hy-color-on-primary-fixed: light-dark(
-        var(--hy-ref-color-primary-10),
-        var(--hy-ref-color-primary-10)
+        var(--hy-color-ref-primary-10),
+         var(--hy-color-ref-primary-10)
     );
     --hy-color-primary-fixed-dim: light-dark(
-        var(--hy-ref-color-primary-80),
-        var(--hy-ref-color-primary-80)
+        var(--hy-color-ref-primary-80),
+         var(--hy-color-ref-primary-80)
     );
     --hy-color-on-primary-fixed-variant: light-dark(
-        var(--hy-ref-color-primary-30),
-        var(--hy-ref-color-primary-30)
+        var(--hy-color-ref-primary-30),
+         var(--hy-color-ref-primary-30)
     );
     --hy-color-secondary-fixed: light-dark(
-        var(--hy-ref-color-secondary-90),
-        var(--hy-ref-color-secondary-90)
+        var(--hy-color-ref-secondary-90),
+         var(--hy-color-ref-secondary-90)
     );
     --hy-color-on-secondary-fixed: light-dark(
-        var(--hy-ref-color-secondary-10),
-        var(--hy-ref-color-secondary-10)
+        var(--hy-color-ref-secondary-10),
+         var(--hy-color-ref-secondary-10)
     );
     --hy-color-secondary-fixed-dim: light-dark(
-        var(--hy-ref-color-secondary-80),
-        var(--hy-ref-color-secondary-80)
+        var(--hy-color-ref-secondary-80),
+         var(--hy-color-ref-secondary-80)
     );
     --hy-color-on-secondary-fixed-variant: light-dark(
-        var(--hy-ref-color-secondary-30),
-        var(--hy-ref-color-secondary-30)
+        var(--hy-color-ref-secondary-30),
+         var(--hy-color-ref-secondary-30)
     );
     --hy-color-tertiary-fixed: light-dark(
-        var(--hy-ref-color-tertiary-90),
-        var(--hy-ref-color-tertiary-90)
+        var(--hy-color-ref-tertiary-90),
+         var(--hy-color-ref-tertiary-90)
     );
     --hy-color-on-tertiary-fixed: light-dark(
-        var(--hy-ref-color-tertiary-10),
-        var(--hy-ref-color-tertiary-10)
+        var(--hy-color-ref-tertiary-10),
+         var(--hy-color-ref-tertiary-10)
     );
     --hy-color-tertiary-fixed-dim: light-dark(
-        var(--hy-ref-color-tertiary-80),
-        var(--hy-ref-color-tertiary-80)
+        var(--hy-color-ref-tertiary-80),
+         var(--hy-color-ref-tertiary-80)
     );
     --hy-color-on-tertiary-fixed-variant: light-dark(
-        var(--hy-ref-color-tertiary-30),
-        var(--hy-ref-color-tertiary-30)
+        var(--hy-color-ref-tertiary-30),
+         var(--hy-color-ref-tertiary-30)
     );
     --hy-color-surface-dim: light-dark(
-        var(--hy-ref-color-neutral-90),
-        var(--hy-ref-color-neutral-10)
+        var(--hy-color-ref-neutral-90),
+         var(--hy-color-ref-neutral-10)
     );
     --hy-color-surface-bright: light-dark(
-        var(--hy-ref-color-neutral-98),
-        var(--hy-ref-color-neutral-20)
+        var(--hy-color-ref-neutral-98),
+         var(--hy-color-ref-neutral-20)
     );
     --hy-color-surface-container-lowest: light-dark(
-        var(--hy-ref-color-neutral-100),
-        var(--hy-ref-color-neutral-5)
+        var(--hy-color-ref-neutral-100),
+         var(--hy-color-ref-neutral-5)
     );
     --hy-color-surface-container-low: light-dark(
-        var(--hy-ref-color-neutral-95),
-        var(--hy-ref-color-neutral-10)
+        var(--hy-color-ref-neutral-95),
+         var(--hy-color-ref-neutral-10)
     );
     --hy-color-surface-container: light-dark(
-        var(--hy-ref-color-neutral-95),
-        var(--hy-ref-color-neutral-15)
+        var(--hy-color-ref-neutral-95),
+         var(--hy-color-ref-neutral-15)
     );
     --hy-color-surface-container-high: light-dark(
-        var(--hy-ref-color-neutral-90),
-        var(--hy-ref-color-neutral-15)
+        var(--hy-color-ref-neutral-90),
+         var(--hy-color-ref-neutral-15)
     );
     --hy-color-surface-container-highest: light-dark(
-        var(--hy-ref-color-neutral-90),
-        var(--hy-ref-color-neutral-20)
+        var(--hy-color-ref-neutral-90),
+         var(--hy-color-ref-neutral-20)
     );
+
+    /**
+    * ==========================================================================
+    * TYPOGRAPHIES REFERENCES
+    * ==========================================================================
+    */
+    --hy-typo-ref-display-large-font: Roboto;
+    --hy-typo-ref-display-medium-font: Roboto;
+    --hy-typo-ref-display-medium-weight: 400;
+    --hy-typo-ref-display-medium-weight-emphasized: 500;
+    --hy-typo-ref-display-medium-size: 45;
+    --hy-typo-ref-display-medium-line-height: 52;
+    --hy-typo-ref-display-medium-tracking: 0;
+    --hy-typo-ref-display-small-font: Roboto;
+    --hy-typo-ref-headline-large-font: Roboto;
+    --hy-typo-ref-headline-large-weight: 400;
+    --hy-typo-ref-headline-large-weight-emphasized: 500;
+    --hy-typo-ref-headline-large-size: 32;
+    --hy-typo-ref-headline-large-line-height: 40;
+    --hy-typo-ref-headline-large-tracking: 0;
+    --hy-typo-ref-headline-medium-font: Roboto;
+    --hy-typo-ref-headline-medium-weight: 400;
+    --hy-typo-ref-headline-medium-weight-emphasized: 500;
+    --hy-typo-ref-headline-medium-size: 28;
+    --hy-typo-ref-headline-medium-line-height: 36;
+    --hy-typo-ref-headline-medium-tracking: 0;
+    --hy-typo-ref-headline-small-font: Roboto;
+    --hy-typo-ref-title-large-font: Roboto;
+    --hy-typo-ref-title-large-weight: 400;
+    --hy-typo-ref-title-large-weight-emphasized: 500;
+    --hy-typo-ref-title-large-size: 22;
+    --hy-typo-ref-title-large-line-height: 28;
+    --hy-typo-ref-title-large-tracking: 0;
+    --hy-typo-ref-title-medium-font: Roboto;
+    --hy-typo-ref-title-medium-weight: 500;
+    --hy-typo-ref-title-medium-weight-emphasized: 600;
+    --hy-typo-ref-title-medium-size: 16;
+    --hy-typo-ref-title-medium-line-height: 24;
+    --hy-typo-ref-title-medium-tracking: 0.15000000596046448;
+    --hy-typo-ref-headline-small-weight: 400;
+    --hy-typo-ref-headline-small-weight-emphasized: 500;
+    --hy-typo-ref-headline-small-size: 24;
+    --hy-typo-ref-headline-small-line-height: 32;
+    --hy-typo-ref-headline-small-tracking: 0;
+    --hy-typo-ref-display-small-weight: 400;
+    --hy-typo-ref-display-small-weight-emphasized: 500;
+    --hy-typo-ref-display-small-size: 36;
+    --hy-typo-ref-display-small-line-height: 44;
+    --hy-typo-ref-display-small-tracking: 0;
+    --hy-typo-ref-title-small-font: Roboto;
+    --hy-typo-ref-title-small-weight: 500;
+    --hy-typo-ref-title-small-weight-emphasized: 600;
+    --hy-typo-ref-title-small-size: 14;
+    --hy-typo-ref-title-small-line-height: 20;
+    --hy-typo-ref-title-small-tracking: 0.10000000149011612;
+    --hy-typo-ref-label-large-font: Roboto;
+    --hy-typo-ref-label-large-weight: 500;
+    --hy-typo-ref-label-large-weight-emphasized: 600;
+    --hy-typo-ref-label-large-size: 14;
+    --hy-typo-ref-label-large-line-height: 20;
+    --hy-typo-ref-label-large-tracking: 0.10000000149011612;
+    --hy-typo-ref-label-medium-font: Roboto;
+    --hy-typo-ref-label-medium-weight: 500;
+    --hy-typo-ref-label-medium-weight-emphasized: 600;
+    --hy-typo-ref-label-medium-size: 12;
+    --hy-typo-ref-label-medium-line-height: 16;
+    --hy-typo-ref-label-medium-tracking: 0.5;
+    --hy-typo-ref-label-small-font: Roboto;
+    --hy-typo-ref-label-small-weight: 500;
+    --hy-typo-ref-label-small-weight-emphasized: 600;
+    --hy-typo-ref-label-small-size: 11;
+    --hy-typo-ref-label-small-line-height: 16;
+    --hy-typo-ref-label-small-tracking: 0.5;
+    --hy-typo-ref-body-large-font: Roboto;
+    --hy-typo-ref-body-large-weight: 400;
+    --hy-typo-ref-body-large-weight-emphasized: 500;
+    --hy-typo-ref-body-large-size: 16;
+    --hy-typo-ref-body-large-line-height: 24;
+    --hy-typo-ref-body-large-tracking: 0.5;
+    --hy-typo-ref-body-medium-font: Roboto;
+    --hy-typo-ref-body-medium-weight: 400;
+    --hy-typo-ref-body-medium-weight-emphasized: 500;
+    --hy-typo-ref-body-medium-size: 14;
+    --hy-typo-ref-body-medium-line-height: 20;
+    --hy-typo-ref-body-medium-tracking: 0.25;
+    --hy-typo-ref-body-small-font: Roboto;
+    --hy-typo-ref-body-small-weight: 400;
+    --hy-typo-ref-body-small-weight-emphasized: 500;
+    --hy-typo-ref-body-small-size: 12;
+    --hy-typo-ref-body-small-line-height: 16;
+    --hy-typo-ref-body-small-tracking: 0.4000000059604645;
+    --hy-typo-ref-display-large-weight: 400;
+    --hy-typo-ref-display-large-weight-emphasized: 500;
+    --hy-typo-ref-display-large-size: 57;
+    --hy-typo-ref-display-large-line-height: 64;
+    --hy-typo-ref-display-large-tracking: -0.25;
+
+    /**
+    * ==========================================================================
+    * TYPOGRAPHIES SYSTEMS
+    * ==========================================================================
+    */
+    --hy-typo-display-large: var(--hy-typo-ref-display-large-weight)
+        var(--hy-typo-ref-display-large-size)/
+        var(--hy-typo-ref-display-large-line-height)
+        var(--hy-typo-ref-display-large-font);
+    --hy-typo-display-medium: var(--hy-typo-ref-display-medium-weight)
+        var(--hy-typo-ref-display-medium-size)/
+        var(--hy-typo-ref-display-medium-line-height)
+        var(--hy-typo-ref-display-medium-font);
+    --hy-typo-display-small: var(--hy-typo-ref-display-small-weight)
+        var(--hy-typo-ref-display-small-size)/
+        var(--hy-typo-ref-display-small-line-height)
+        var(--hy-typo-ref-display-small-font);
+    --hy-typo-headline-large: var(--hy-typo-ref-headline-large-weight)
+        var(--hy-typo-ref-headline-large-size)/
+        var(--hy-typo-ref-headline-large-line-height)
+        var(--hy-typo-ref-headline-large-font);
+    --hy-typo-headline-medium: var(--hy-typo-ref-headline-medium-weight)
+        var(--hy-typo-ref-headline-medium-size)/
+        var(--hy-typo-ref-headline-medium-line-height)
+        var(--hy-typo-ref-headline-medium-font);
+    --hy-typo-headline-small: var(--hy-typo-ref-headline-small-weight)
+        var(--hy-typo-ref-headline-small-size)/
+        var(--hy-typo-ref-headline-small-line-height)
+        var(--hy-typo-ref-headline-small-font);
+    --hy-typo-title-large: var(--hy-typo-ref-title-large-weight)
+        var(--hy-typo-ref-title-large-size)/
+        var(--hy-typo-ref-title-large-line-height)
+        var(--hy-typo-ref-title-large-font);
+    --hy-typo-title-medium: var(--hy-typo-ref-title-medium-weight)
+        var(--hy-typo-ref-title-medium-size)/
+        var(--hy-typo-ref-title-medium-line-height)
+        var(--hy-typo-ref-title-medium-font);
+    --hy-typo-title-small: var(--hy-typo-ref-title-small-weight)
+        var(--hy-typo-ref-title-small-size)/
+        var(--hy-typo-ref-title-small-line-height)
+        var(--hy-typo-ref-title-small-font);
+    --hy-typo-label-large: var(--hy-typo-ref-label-large-weight)
+        var(--hy-typo-ref-label-large-size)/
+        var(--hy-typo-ref-label-large-line-height)
+        var(--hy-typo-ref-label-large-font);
+    --hy-typo-label-medium: var(--hy-typo-ref-label-medium-weight)
+        var(--hy-typo-ref-label-medium-size)/
+        var(--hy-typo-ref-label-medium-line-height)
+        var(--hy-typo-ref-label-medium-font);
+    --hy-typo-label-small: var(--hy-typo-ref-label-small-weight)
+        var(--hy-typo-ref-label-small-size)/
+        var(--hy-typo-ref-label-small-line-height)
+        var(--hy-typo-ref-label-small-font);
+    --hy-typo-body-large: var(--hy-typo-ref-body-large-weight)
+        var(--hy-typo-ref-body-large-size)/
+        var(--hy-typo-ref-body-large-line-height)
+        var(--hy-typo-ref-body-large-font);
+    --hy-typo-body-medium: var(--hy-typo-ref-body-medium-weight)
+        var(--hy-typo-ref-body-medium-size)/
+        var(--hy-typo-ref-body-medium-line-height)
+        var(--hy-typo-ref-body-medium-font);
+    --hy-typo-body-small: var(--hy-typo-ref-body-small-weight)
+        var(--hy-typo-ref-body-small-size)/
+        var(--hy-typo-ref-body-small-line-height)
+        var(--hy-typo-ref-body-small-font);
 }
