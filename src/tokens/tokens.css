@@ -675,7 +675,15 @@
         var(--hy-typo-ref-display-large-size)/
         var(--hy-typo-ref-display-large-line-height)
         var(--hy-typo-ref-display-large-font);
+    --hy-typo-display-large-emphasized: var(--hy-typo-ref-display-large-weight-emphasized)
+        var(--hy-typo-ref-display-large-size)/
+        var(--hy-typo-ref-display-large-line-height)
+        var(--hy-typo-ref-display-large-font);
     --hy-typo-display-medium: var(--hy-typo-ref-display-medium-weight)
+        var(--hy-typo-ref-display-medium-size)/
+        var(--hy-typo-ref-display-medium-line-height)
+        var(--hy-typo-ref-display-medium-font);
+    --hy-typo-display-medium-emphasized: var(--hy-typo-ref-display-medium-weight-emphasized)
         var(--hy-typo-ref-display-medium-size)/
         var(--hy-typo-ref-display-medium-line-height)
         var(--hy-typo-ref-display-medium-font);
@@ -683,7 +691,15 @@
         var(--hy-typo-ref-display-small-size)/
         var(--hy-typo-ref-display-small-line-height)
         var(--hy-typo-ref-display-small-font);
+    --hy-typo-display-small-emphasized: var(--hy-typo-ref-display-small-weight-emphasized)
+        var(--hy-typo-ref-display-small-size)/
+        var(--hy-typo-ref-display-small-line-height)
+        var(--hy-typo-ref-display-small-font);
     --hy-typo-headline-large: var(--hy-typo-ref-headline-large-weight)
+        var(--hy-typo-ref-headline-large-size)/
+        var(--hy-typo-ref-headline-large-line-height)
+        var(--hy-typo-ref-headline-large-font);
+    --hy-typo-headline-large-emphasized: var(--hy-typo-ref-headline-large-weight-emphasized)
         var(--hy-typo-ref-headline-large-size)/
         var(--hy-typo-ref-headline-large-line-height)
         var(--hy-typo-ref-headline-large-font);
@@ -691,7 +707,15 @@
         var(--hy-typo-ref-headline-medium-size)/
         var(--hy-typo-ref-headline-medium-line-height)
         var(--hy-typo-ref-headline-medium-font);
+    --hy-typo-headline-medium-emphasized: var(--hy-typo-ref-headline-medium-weight-emphasized)
+        var(--hy-typo-ref-headline-medium-size)/
+        var(--hy-typo-ref-headline-medium-line-height)
+        var(--hy-typo-ref-headline-medium-font);
     --hy-typo-headline-small: var(--hy-typo-ref-headline-small-weight)
+        var(--hy-typo-ref-headline-small-size)/
+        var(--hy-typo-ref-headline-small-line-height)
+        var(--hy-typo-ref-headline-small-font);
+    --hy-typo-headline-small-emphasized: var(--hy-typo-ref-headline-small-weight-emphasized)
         var(--hy-typo-ref-headline-small-size)/
         var(--hy-typo-ref-headline-small-line-height)
         var(--hy-typo-ref-headline-small-font);
@@ -699,7 +723,15 @@
         var(--hy-typo-ref-title-large-size)/
         var(--hy-typo-ref-title-large-line-height)
         var(--hy-typo-ref-title-large-font);
+    --hy-typo-title-large-emphasized: var(--hy-typo-ref-title-large-weight-emphasized)
+        var(--hy-typo-ref-title-large-size)/
+        var(--hy-typo-ref-title-large-line-height)
+        var(--hy-typo-ref-title-large-font);
     --hy-typo-title-medium: var(--hy-typo-ref-title-medium-weight)
+        var(--hy-typo-ref-title-medium-size)/
+        var(--hy-typo-ref-title-medium-line-height)
+        var(--hy-typo-ref-title-medium-font);
+    --hy-typo-title-medium-emphasized: var(--hy-typo-ref-title-medium-weight-emphasized)
         var(--hy-typo-ref-title-medium-size)/
         var(--hy-typo-ref-title-medium-line-height)
         var(--hy-typo-ref-title-medium-font);
@@ -707,7 +739,15 @@
         var(--hy-typo-ref-title-small-size)/
         var(--hy-typo-ref-title-small-line-height)
         var(--hy-typo-ref-title-small-font);
+    --hy-typo-title-small-emphasized: var(--hy-typo-ref-title-small-weight-emphasized)
+        var(--hy-typo-ref-title-small-size)/
+        var(--hy-typo-ref-title-small-line-height)
+        var(--hy-typo-ref-title-small-font);
     --hy-typo-label-large: var(--hy-typo-ref-label-large-weight)
+        var(--hy-typo-ref-label-large-size)/
+        var(--hy-typo-ref-label-large-line-height)
+        var(--hy-typo-ref-label-large-font);
+    --hy-typo-label-large-emphasized: var(--hy-typo-ref-label-large-weight-emphasized)
         var(--hy-typo-ref-label-large-size)/
         var(--hy-typo-ref-label-large-line-height)
         var(--hy-typo-ref-label-large-font);
@@ -715,7 +755,15 @@
         var(--hy-typo-ref-label-medium-size)/
         var(--hy-typo-ref-label-medium-line-height)
         var(--hy-typo-ref-label-medium-font);
+    --hy-typo-label-medium-emphasized: var(--hy-typo-ref-label-medium-weight-emphasized)
+        var(--hy-typo-ref-label-medium-size)/
+        var(--hy-typo-ref-label-medium-line-height)
+        var(--hy-typo-ref-label-medium-font);
     --hy-typo-label-small: var(--hy-typo-ref-label-small-weight)
+        var(--hy-typo-ref-label-small-size)/
+        var(--hy-typo-ref-label-small-line-height)
+        var(--hy-typo-ref-label-small-font);
+    --hy-typo-label-small-emphasized: var(--hy-typo-ref-label-small-weight-emphasized)
         var(--hy-typo-ref-label-small-size)/
         var(--hy-typo-ref-label-small-line-height)
         var(--hy-typo-ref-label-small-font);
@@ -723,11 +771,23 @@
         var(--hy-typo-ref-body-large-size)/
         var(--hy-typo-ref-body-large-line-height)
         var(--hy-typo-ref-body-large-font);
+    --hy-typo-body-large-emphasized: var(--hy-typo-ref-body-large-weight-emphasized)
+        var(--hy-typo-ref-body-large-size)/
+        var(--hy-typo-ref-body-large-line-height)
+        var(--hy-typo-ref-body-large-font);
     --hy-typo-body-medium: var(--hy-typo-ref-body-medium-weight)
         var(--hy-typo-ref-body-medium-size)/
         var(--hy-typo-ref-body-medium-line-height)
         var(--hy-typo-ref-body-medium-font);
+    --hy-typo-body-medium-emphasized: var(--hy-typo-ref-body-medium-weight-emphasized)
+        var(--hy-typo-ref-body-medium-size)/
+        var(--hy-typo-ref-body-medium-line-height)
+        var(--hy-typo-ref-body-medium-font);
     --hy-typo-body-small: var(--hy-typo-ref-body-small-weight)
+        var(--hy-typo-ref-body-small-size)/
+        var(--hy-typo-ref-body-small-line-height)
+        var(--hy-typo-ref-body-small-font);
+    --hy-typo-body-small-emphasized: var(--hy-typo-ref-body-small-weight-emphasized)
         var(--hy-typo-ref-body-small-size)/
         var(--hy-typo-ref-body-small-line-height)
         var(--hy-typo-ref-body-small-font);
