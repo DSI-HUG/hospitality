@@ -438,20 +438,20 @@
          var(--hy-color-ref-warning-90)
     );
     --hy-color-background: light-dark(
-        var(--hy-color-ref-neutral-99),
-         var(--hy-color-ref-neutral-10)
+        var(--hy-color-ref-neutral-variant-99),
+         var(--hy-color-ref-neutral-variant-10)
     );
     --hy-color-on-background: light-dark(
-        var(--hy-color-ref-neutral-10),
-         var(--hy-color-ref-neutral-90)
+        var(--hy-color-ref-neutral-variant-10),
+         var(--hy-color-ref-neutral-variant-90)
     );
     --hy-color-surface: light-dark(
-        var(--hy-color-ref-neutral-98),
-         var(--hy-color-ref-neutral-10)
+        var(--hy-color-ref-neutral-variant-98),
+         var(--hy-color-ref-neutral-variant-10)
     );
     --hy-color-on-surface: light-dark(
-        var(--hy-color-ref-neutral-10),
-         var(--hy-color-ref-neutral-90)
+        var(--hy-color-ref-neutral-variant-10),
+         var(--hy-color-ref-neutral-variant-90)
     );
     --hy-color-surface-variant: light-dark(
         var(--hy-color-ref-neutral-variant-90),
@@ -462,12 +462,12 @@
          var(--hy-color-ref-neutral-variant-80)
     );
     --hy-color-inverse-surface: light-dark(
-        var(--hy-color-ref-neutral-20),
-         var(--hy-color-ref-neutral-90)
+        var(--hy-color-ref-neutral-variant-20),
+         var(--hy-color-ref-neutral-variant-90)
     );
     --hy-color-inverse-on-surface: light-dark(
-        var(--hy-color-ref-neutral-95),
-         var(--hy-color-ref-neutral-20)
+        var(--hy-color-ref-neutral-variant-95),
+         var(--hy-color-ref-neutral-variant-20)
     );
     --hy-color-inverse-primary: light-dark(
         var(--hy-color-ref-primary-80),
@@ -542,32 +542,32 @@
          var(--hy-color-ref-tertiary-30)
     );
     --hy-color-surface-dim: light-dark(
-        var(--hy-color-ref-neutral-90),
-         var(--hy-color-ref-neutral-10)
+        var(--hy-color-ref-neutral-variant-90),
+         var(--hy-color-ref-neutral-variant-10)
     );
     --hy-color-surface-bright: light-dark(
-        var(--hy-color-ref-neutral-98),
-         var(--hy-color-ref-neutral-20)
+        var(--hy-color-ref-neutral-variant-98),
+         var(--hy-color-ref-neutral-variant-20)
     );
     --hy-color-surface-container-lowest: light-dark(
-        var(--hy-color-ref-neutral-100),
-         var(--hy-color-ref-neutral-5)
+        var(--hy-color-ref-neutral-variant-100),
+         var(--hy-color-ref-neutral-variant-5)
     );
     --hy-color-surface-container-low: light-dark(
-        var(--hy-color-ref-neutral-95),
-         var(--hy-color-ref-neutral-10)
+        var(--hy-color-ref-neutral-variant-98),
+         var(--hy-color-ref-neutral-variant-10)
     );
     --hy-color-surface-container: light-dark(
-        var(--hy-color-ref-neutral-95),
-         var(--hy-color-ref-neutral-15)
+        var(--hy-color-ref-neutral-variant-95),
+         var(--hy-color-ref-neutral-variant-15)
     );
     --hy-color-surface-container-high: light-dark(
-        var(--hy-color-ref-neutral-90),
-         var(--hy-color-ref-neutral-15)
+        var(--hy-color-ref-neutral-variant-90),
+         var(--hy-color-ref-neutral-variant-20)
     );
     --hy-color-surface-container-highest: light-dark(
-        var(--hy-color-ref-neutral-90),
-         var(--hy-color-ref-neutral-20)
+        var(--hy-color-ref-neutral-variant-80),
+         var(--hy-color-ref-neutral-variant-25)
     );
 
     /**
