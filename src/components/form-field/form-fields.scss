@@ -1,0 +1,97 @@
+@use "@angular/material" as mat;
+
+mat-form-field {
+    @include mat.form-field-density(-2);
+    @include mat.form-field-overrides(
+        (
+            outlined-focus-label-text-color: var(--mat-sys-primary),
+            outlined-focus-outline-color: var(--mat-sys-primary),
+            outlined-focus-outline-width: 3px,
+            outlined-error-label-text-color: var(--mat-sys-error),
+            outlined-error-focus-label-text-color: var(--mat-sys-error),
+            outlined-error-outline-color: var(--mat-sys-error),
+            outlined-error-caret-color: var(--mat-sys-error),
+            outlined-input-text-placeholder-color:
+                var(--mat-sys-on-surface-variant),
+        )
+    );
+
+    .mat-mdc-floating-label {
+        top: 50%;
+    }
+
+    &:has(textarea) {
+        &[size="small"] {
+            .mat-mdc-form-field-icon-suffix {
+                padding: 0.5rem 0;
+
+                mat-icon {
+                    padding-top: 2px;
+                }
+            }
+        }
+
+        &[size="large"] {
+            .mat-mdc-form-field-icon-suffix {
+                padding: 1rem 0;
+            }
+        }
+
+        .mat-mdc-form-field-icon-suffix {
+            height: -webkit-fill-available;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-bottom: 0.75rem;
+            padding-top: 0.75rem;
+            margin-left: 4px;
+        }
+    }
+
+    &[size="small"] {
+        @include mat.form-field-density(-4);
+
+        .mat-mdc-form-field-icon-suffix,
+        .mat-mdc-form-field-icon-prefix {
+            button {
+                margin: 0 0.5rem;
+            }
+
+            mat-icon {
+                font-size: 1.25rem;
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+        }
+    }
+
+    &[size="large"] {
+        @include mat.form-field-density(0);
+    }
+
+    &.mat-form-field-disabled {
+        mat-hint {
+            color: color-mix(
+                in srgb,
+                var(--mat-sys-on-surface-variant) 38%,
+                transparent
+            );
+        }
+    }
+
+    > .mat-mdc-text-field-wrapper {
+        background-color: var(--mat-sys-surface-container-lowest);
+    }
+
+    .mat-mdc-form-field-icon-suffix,
+    .mat-mdc-form-field-icon-prefix {
+        width: 48px;
+        button {
+            margin: 0 0.25rem;
+        }
+    }
+
+    mat-hint {
+        color: var(--mat-sys-on-surface-variant);
+    }
+}
