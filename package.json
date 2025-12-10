@@ -17,18 +17,19 @@
         "tag": "latest"
     },
     "exports": {
-        "./form-field": "./src/components/form-field/form-field.scss",
-        "./form-field/provider": {
-            "types": "./src/components/form-field/form-field.provider.d.ts",
-            "default": "./src/components/form-field/form-field.provider.mjs"
-        },
         "./tokens": {
             "require": "./src/tokens/index.mjs",
             "types": "./src/tokens/index.d.ts",
             "default": "./src/tokens/tokens.css"
         },
         "./material/theme": "./src/material/theme/theme.scss",
-        "./package.json": "./package.json"
+        "./package.json": "./package.json",
+        "./form-field": "./src/components/form-field/form-field.scss",
+        "./form-field/provider": {
+            "types": "./src/components/form-field/form-field.provider.d.ts",
+            "default": "./src/components/form-field/form-field.provider.mjs"
+        },
+        "./dialog": "./src/components/dialog/dialog.scss"
     },
     "files": [
         "README.md",

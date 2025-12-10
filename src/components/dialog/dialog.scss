@@ -1,0 +1,29 @@
+@use "@angular/material" as mat;
+
+mat-dialog-container {
+    @include mat.dialog-overrides(
+        (
+            actions-padding: 1.5rem,
+            headline-padding: 0.25rem 1.5rem 1rem,
+        )
+    );
+}
+
+.warning-dialog {
+    mat-dialog-container {
+        @include mat.dialog-overrides(
+            (
+                subhead-color: var(--mat-sys-warning),
+                headline-padding: 1.5rem 1.5rem 1rem,
+            )
+        );
+    }
+
+    [mat-dialog-title]:before {
+        content: "warning";
+        font-family: "Material Symbols Outlined Variable";
+        display: inline;
+        padding-right: 10px;
+        vertical-align: bottom;
+    }
+}
