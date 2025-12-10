@@ -17,7 +17,7 @@
         "tag": "latest"
     },
     "exports": {
-        "./form-field": "./src/components/form-field/form-fields.scss",
+        "./form-field": "./src/components/form-field/form-field.scss",
         "./form-field/provider": {
             "types": "./src/components/form-field/form-field.provider.d.ts",
             "default": "./src/components/form-field/form-field.provider.mjs"
