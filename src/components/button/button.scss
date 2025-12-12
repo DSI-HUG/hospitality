@@ -1,0 +1,237 @@
+@use "@angular/material" as mat;
+
+button {
+    gap: 0.5rem;
+
+    @include mat.button-overrides(
+        (
+            filled-horizontal-padding: 1rem,
+            outlined-horizontal-padding: 1rem,
+            protected-horizontal-padding: 1rem,
+            text-horizontal-padding: 1rem,
+            text-with-icon-horizontal-padding: 1rem,
+            outlined-label-text-color: var(--mat-sys-on-surface-variant),
+            outlined-outline-color: var(--mat-sys-outline-variant),
+            outlined-disabled-outline-color: var(--mat-sys-outline-variant),
+            outlined-state-layer-color:
+                color-mix(in srgb, var(--mat-sys-on-surface) 38%, transparent),
+            outlined-ripple-color:
+                color-mix(in srgb, var(--mat-sys-on-surface) 10%, transparent),
+        )
+    );
+
+    &[mat-button],
+    &[mat-stroked-button],
+    &[mat-flat-button] {
+        > mat-icon.mat-icon {
+            margin: 0;
+            font-size: 1.25rem;
+            height: 1.25rem;
+            width: 1.25rem;
+        }
+
+        &:disabled {
+            background-color: color-mix(
+                in srgb,
+                var(--mat-sys-on-surface) 12%,
+                transparent
+            );
+        }
+    }
+
+    &[hy-size="small"] {
+        gap: 0.5rem;
+
+        @include mat.button-density(-1);
+        @include mat.button-overrides(
+            (
+                filled-horizontal-padding: 0.75rem,
+                outlined-horizontal-padding: 0.75rem,
+                protected-horizontal-padding: 0.75rem,
+                text-horizontal-padding: 0.75rem,
+                text-with-icon-horizontal-padding: 0.75rem,
+            )
+        );
+        @include mat.icon-button-overrides(
+            (
+                state-layer-size: 2rem,
+            )
+        );
+
+        &[mat-icon-button] {
+            > mat-icon.mat-icon {
+                margin: 0;
+                font-size: 1.25rem;
+                height: 1.25rem;
+                width: 1.25rem;
+            }
+        }
+    }
+
+    &[hy-size="x-large"] {
+        @include mat.button-overrides(
+            (
+                filled-container-height: 3.5rem,
+                outlined-container-height: 3.5rem,
+                protected-container-height: 3.5rem,
+                text-container-height: 3.5rem,
+
+                filled-horizontal-padding: 1.5rem,
+                outlined-horizontal-padding: 1.5rem,
+                protected-horizontal-padding: 1.5rem,
+                text-horizontal-padding: 1.5rem,
+                text-with-icon-horizontal-padding: 1.5rem,
+
+                filled-label-text-font: var(--mat-sys-title-medium-font),
+                outlined-label-text-font: var(--mat-sys-title-medium-font),
+                protected-label-text-font: var(--mat-sys-title-medium-font),
+                text-label-text-font: var(--mat-sys-title-medium-font),
+                filled-label-text-size: var(--mat-sys-title-medium-size),
+                outlined-label-text-size: var(--mat-sys-title-medium-size),
+                protected-label-text-size: var(--mat-sys-title-medium-size),
+                text-label-text-size: var(--mat-sys-title-medium-size),
+                filled-label-text-tracking: var(--mat-sys-title-medium-tracking),
+                outlined-label-text-tracking:
+                    var(--mat-sys-title-medium-tracking),
+                protected-label-text-tracking:
+                    var(--mat-sys-title-medium-tracking),
+                text-label-text-tracking: var(--mat-sys-title-medium-tracking),
+                filled-label-text-weight: var(--mat-sys-title-medium-weight),
+                outlined-label-text-weight: var(--mat-sys-title-medium-weight),
+                protected-label-text-weight: var(--mat-sys-title-medium-weight),
+                text-label-text-weight: var(--mat-sys-title-medium-weight),
+            )
+        );
+
+        @include mat.icon-button-overrides(
+            (
+                state-layer-size: 3.5rem,
+            )
+        );
+
+        &[mat-button],
+        &[mat-stroked-button],
+        &[mat-flat-button] {
+            > mat-icon.mat-icon {
+                font-size: 1.5rem;
+                height: 1.5rem;
+                width: 1.5rem;
+            }
+        }
+    }
+
+    &[hy-appearance="tonal"],
+    &[hy-appearance="filled"],
+    &[hy-appearance="warning-filled"] {
+        &:disabled {
+            background-color: color-mix(
+                in srgb,
+                var(--mat-sys-on-surface) 10%,
+                transparent
+            );
+        }
+    }
+
+    &[hy-appearance="tonal"] {
+        @include mat.button-overrides(
+            (
+                filled-container-color: var(--mat-sys-secondary-container),
+                filled-label-text-color: var(--mat-sys-on-secondary-container),
+                filled-state-layer-color: var(--mat-sys-on-secondary-container),
+                filled-ripple-color:
+                    color-mix(
+                        in srgb,
+                        var(--mat-sys-on-secondary-container) 10%,
+                        transparent
+                    ),
+            )
+        );
+
+        @include mat.icon-button-overrides(
+            (
+                icon-color: var(--mat-sys-on-secondary-container),
+                state-layer-color: var(--mat-sys-on-secondary-container),
+                ripple-color:
+                    color-mix(
+                        in srgb,
+                        var(--mat-sys-on-secondary-container) 10%,
+                        transparent
+                    ),
+            )
+        );
+
+        &[mat-icon-button]:enabled {
+            background-color: var(--mat-sys-secondary-container);
+        }
+    }
+
+    &[hy-appearance="filled"] {
+        background-color: var(--mat-sys-primary);
+
+        @include mat.icon-button-overrides(
+            (
+                icon-color: var(--mat-sys-on-primary),
+                state-layer-color: var(--mat-sys-on-primary),
+                ripple-color:
+                    color-mix(
+                        in srgb,
+                        var(--mat-sys-on-primary) 10%,
+                        transparent
+                    ),
+            )
+        );
+    }
+
+    &[hy-appearance="warning-filled"] {
+        @include mat.button-overrides(
+            (
+                filled-container-color: var(--mat-sys-warning),
+                filled-label-text-color: var(--mat-sys-on-warning),
+                filled-state-layer-color: var(--mat-sys-on-warning),
+                filled-ripple-color:
+                    color-mix(
+                        in srgb,
+                        var(--mat-sys-on-warning) 10%,
+                        transparent
+                    ),
+            )
+        );
+
+        @include mat.icon-button-overrides(
+            (
+                icon-color: var(--mat-sys-on-warning),
+                state-layer-color: var(--mat-sys-on-warning),
+                ripple-color:
+                    color-mix(
+                        in srgb,
+                        var(--mat-sys-on-warning) 10%,
+                        transparent
+                    ),
+            )
+        );
+
+        &[mat-icon-button]:enabled {
+            background-color: var(--mat-sys-warning);
+        }
+    }
+
+    &[hy-appearance="warning-text"] {
+        @include mat.button-overrides(
+            (
+                text-label-text-color: var(--mat-sys-warning),
+                text-state-layer-color: var(--mat-sys-warning),
+                text-ripple-color:
+                    color-mix(in srgb, var(--mat-sys-warning) 10%, transparent),
+            )
+        );
+
+        @include mat.icon-button-overrides(
+            (
+                icon-color: var(--mat-sys-warning),
+                state-layer-color: var(--mat-sys-warning),
+                ripple-color:
+                    color-mix(in srgb, var(--mat-sys-warning) 10%, transparent),
+            )
+        );
+    }
+}
