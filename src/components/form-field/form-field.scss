@@ -21,7 +21,7 @@ mat-form-field {
     }
 
     &:has(textarea) {
-        &[size="small"] {
+        &[hy-size="small"] {
             .mat-mdc-form-field-icon-suffix {
                 padding: 0.5rem 0;
 
@@ -31,7 +31,7 @@ mat-form-field {
             }
         }
 
-        &[size="large"] {
+        &[hy-size="large"] {
             .mat-mdc-form-field-icon-suffix {
                 padding: 1rem 0;
             }
@@ -48,7 +48,7 @@ mat-form-field {
         }
     }
 
-    &[size="small"] {
+    &[hy-size="small"] {
         @include mat.form-field-density(-4);
 
         .mat-mdc-form-field-icon-suffix,
@@ -65,7 +65,7 @@ mat-form-field {
         }
     }
 
-    &[size="large"] {
+    &[hy-size="large"] {
         @include mat.form-field-density(0);
     }
 

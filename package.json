@@ -24,12 +24,14 @@
         },
         "./material/theme": "./src/material/theme/theme.scss",
         "./package.json": "./package.json",
-        "./form-field": "./src/components/form-field/form-field.scss",
-        "./form-field/provider": {
+        "./core/directives/components-styling": "./src/core/directives/components-styling.directive.ts",
+        "./components/form-field": "./src/components/form-field/form-field.scss",
+        "./components/form-field/provider": {
             "types": "./src/components/form-field/form-field.provider.d.ts",
             "default": "./src/components/form-field/form-field.provider.mjs"
         },
-        "./dialog": "./src/components/dialog/dialog.scss"
+        "./components/dialog": "./src/components/dialog/dialog.scss",
+        "./components/button": "./src/components/button/button.scss"
     },
     "files": [
         "README.md",
@@ -51,7 +53,7 @@
         "@commitlint/config-conventional": "^19.8.0",
         "@hug/eslint-config": "^20.3.3",
         "husky": "^9.1.7",
-        "lint-staged": "^15.5.0"
+        "lint-staged": "^16.2.7"
     },
     "peerDependencies": {
         "@angular/material": "19.x.x"
