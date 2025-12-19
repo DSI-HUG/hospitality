@@ -16,28 +16,6 @@
         "access": "public",
         "tag": "latest"
     },
-    "exports": {
-        "./tokens": {
-            "require": "./src/tokens/index.mjs",
-            "types": "./src/tokens/index.d.ts",
-            "default": "./src/tokens/tokens.css"
-        },
-        "./material/theme": "./src/material/theme/theme.scss",
-        "./package.json": "./package.json",
-        "./core/directives/components-styling": "./src/core/directives/components-styling.directive.ts",
-        "./components/form-field": "./src/components/form-field/form-field.scss",
-        "./components/form-field/provider": {
-            "types": "./src/components/form-field/form-field.provider.d.ts",
-            "default": "./src/components/form-field/form-field.provider.mjs"
-        },
-        "./components/dialog": "./src/components/dialog/dialog.scss",
-        "./components/button": "./src/components/button/button.scss"
-    },
-    "files": [
-        "README.md",
-        "LICENSE",
-        "src/"
-    ],
     "keywords": [
         "TODO:"
     ],
@@ -46,17 +24,46 @@
         "prepare": "husky || true",
         "lint": "eslint . --fix",
         "lint:ci": "eslint .",
+        "build": "ng-packagr -p ng-package.json -c tsconfig.json",
         "release": "npm publish"
     },
+    "exports": {
+        "./material/button": {
+            "sass": "./material/button/button.scss"
+        },
+        "./material/dialog": {
+            "sass": "./material/dialog/dialog.scss"
+        },
+        "./material/form-field": {
+            "sass": "./material/form-field/form-field.scss"
+        },
+        "./material/theme": {
+            "sass": "./material/theme/theme.scss"
+        },
+        "./tokens": {
+            "style": "./tokens/tokens.css"
+        }
+    },
+    "peerDependencies": {
+        "@angular/material": "^19.x"
+    },
+    "peerDependenciesMeta": {
+        "@angular/material": {
+            "optional": true
+        }
+    },
     "devDependencies": {
-        "@commitlint/cli": "^19.8.0",
-        "@commitlint/config-conventional": "^19.8.0",
+        "@angular/common": "^19.2.17",
+        "@angular/compiler-cli": "^19.2.17",
+        "@angular/core": "^19.2.17",
+        "@angular/forms": "^19.2.17",
+        "@angular/material": "^19.2.19",
+        "ng-packagr": "^19.2.2",
+        "@commitlint/cli": "^20.2.0",
+        "@commitlint/config-conventional": "^20.2.0",
         "@hug/eslint-config": "^20.3.3",
         "husky": "^9.1.7",
         "lint-staged": "^16.2.7"
-    },
-    "peerDependencies": {
-        "@angular/material": "19.x.x"
     },
     "commitlint": {
         "extends": [
@@ -91,5 +98,5 @@
     "engines": {
         "yarn": "Please use Npm instead of Yarn."
     },
-    "packageManager": "npm@11.2.0"
+    "packageManager": "npm@11.7.0"
 }

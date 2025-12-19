@@ -1,5 +1,5 @@
 @use "@angular/material" as mat;
-@use "../../utils/map" as map;
+@use "./utils" as map;
 
 $override-colors: (
     primary: var(--hy-color-primary),
