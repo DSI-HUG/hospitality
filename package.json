@@ -1,6 +1,6 @@
 {
     "name": "@hug/hospitality",
-    "version": "0.0.4-alpha.17",
+    "version": "0.0.4-alpha.18",
     "description": "Hospitality Design System",
     "homepage": "https://github.com/dsi-hug/hospitality",
     "license": "GPL-3.0-only",
@@ -25,7 +25,7 @@
         "lint": "eslint . --fix",
         "lint:ci": "eslint .",
         "build": "ng-packagr -p ng-package.json -c tsconfig.json",
-        "release": "npm publish"
+        "release": "npm publish ./dist/"
     },
     "exports": {
         "./material/button": {
