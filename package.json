@@ -25,7 +25,7 @@
         "lint": "eslint . --fix",
         "lint:ci": "eslint .",
         "build": "ng-packagr -p ng-package.json -c tsconfig.json",
-        "release": "npm publish"
+        "release": "npm publish ./dist/"
     },
     "exports": {
         "./material/button": {
