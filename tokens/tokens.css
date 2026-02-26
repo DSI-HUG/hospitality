@@ -853,12 +853,27 @@
 
     /**
     * ==========================================================================
-    * RADIUS REFERENCES
+    * RADIUS TOKENS
     * ==========================================================================
     */
-    --hy-radius-border-radius-x-large: 32px;
-    --hy-radius-border-radius-large: 24px;
-    --hy-radius-border-radius-medium: 16px;
-    --hy-radius-border-radius-small: 8px;
-    --hy-radius-border-radius-x-small: 4px;
+    --hy-radius-x-large: 32px;
+    --hy-radius-large: 24px;
+    --hy-radius-medium: 16px;
+    --hy-radius-small: 8px;
+    --hy-radius-x-small: 4px;
+
+    /**
+    * ==========================================================================
+    * SPACING TOKENS
+    * ==========================================================================
+    */
+    --hy-spacing-xx-large: 32;
+    --hy-spacing-x-large: 24;
+    --hy-spacing-large: 20;
+    --hy-spacing-medium-large: 18;
+    --hy-spacing-medium: 16;
+    --hy-spacing-medium-small: 12;
+    --hy-spacing-small: 8;
+    --hy-spacing-x-small: 4;
+    --hy-spacing-xx-small: 2;
 }
