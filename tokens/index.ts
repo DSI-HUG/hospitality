@@ -13,17 +13,20 @@ export interface TokenSystem {
     type: string;
     reference: Token[];
     _referenceValue:
-        | string
-        | {
-            weight: number;
-            size: number;
-            lineHeight: number;
-            font: string;
-        };
+    | string
+    | {
+        weight: number;
+        size: number;
+        lineHeight: number;
+        font: string;
+    };
 }
 
-export interface Tokens {
+export interface ReferencesTokens {
     references: Token[];
+}
+
+export interface Tokens extends ReferencesTokens {
     systems: {
         light: TokenSystem[];
         dark: TokenSystem[];
@@ -33,6 +36,8 @@ export interface Tokens {
 const tokens: {
     colors: Tokens;
     typographies: Tokens;
+    radius: ReferencesTokens;
+    spacing: ReferencesTokens;
 } = rawTokens;
 
 export { tokens };
