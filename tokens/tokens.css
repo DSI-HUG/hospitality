@@ -867,13 +867,13 @@
     * SPACING TOKENS
     * ==========================================================================
     */
-    --hy-spacing-xx-large: 32;
-    --hy-spacing-x-large: 24;
-    --hy-spacing-large: 20;
-    --hy-spacing-medium-large: 18;
-    --hy-spacing-medium: 16;
-    --hy-spacing-medium-small: 12;
-    --hy-spacing-small: 8;
-    --hy-spacing-x-small: 4;
-    --hy-spacing-xx-small: 2;
+    --hy-spacing-xx-large: 32px;
+    --hy-spacing-x-large: 24px;
+    --hy-spacing-large: 20px;
+    --hy-spacing-medium-large: 18px;
+    --hy-spacing-medium: 16px;
+    --hy-spacing-medium-small: 12px;
+    --hy-spacing-small: 8px;
+    --hy-spacing-x-small: 4px;
+    --hy-spacing-xx-small: 2px;
 }
