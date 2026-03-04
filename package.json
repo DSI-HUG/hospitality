@@ -28,6 +28,9 @@
         "release": "npm publish ./dist/"
     },
     "exports": {
+        "./material/actions-group": {
+            "sass": "./material/actions-group/actions-group.scss"
+        },
         "./material/app-bar": {
             "sass": "./material/app-bar/app-bar.scss"
         },
