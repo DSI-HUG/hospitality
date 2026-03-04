@@ -1,0 +1,11 @@
+ngx-panel {
+    --ngx-panel-radius: var(--hy-radius-x-large);
+
+    --ngx-panel-padding-block: var(--hy-spacing-x-small);
+    --ngx-panel-content-gap: var(--hy-spacing-small);
+    --ngx-panel-content-padding-inline: var(--hy-spacing-small);
+    --ngx-panel-content-padding-block-end: var(--hy-spacing-medium-small);
+    --ngx-panel-content-scrollbar-track-margin-block-end: var(
+        --hy-spacing-x-large
+    );
+}

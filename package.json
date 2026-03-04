@@ -46,6 +46,9 @@
         "./material/main-bar": {
             "sass": "./material/main-bar/main-bar.scss"
         },
+        "./material/panel": {
+            "sass": "./material/panel/panel.scss"
+        },
         "./material/theme": {
             "sass": "./material/theme/theme.scss"
         },
