@@ -1,0 +1,15 @@
+ngx-app-bar {
+    --ngx-app-bar-min-height: 56px;
+    --ngx-app-bar-gap: var(--hy-spacing-x-small);
+    --ngx-app-bar-condensed-gap: var(--hy-spacing-small);
+    --ngx-app-bar-actions-gap: var(--hy-spacing-small);
+
+    --ngx-app-bar-title-font: var(--hy-typo-headline-medium-emphasized);
+    --ngx-app-bar-title-letter-spacing: var(
+        --hy-typo-ref-headline-medium-tracking
+    );
+    --ngx-app-bar-subtitle-font: var(--hy-typo-headline-small-emphasized);
+    --ngx-app-bar-subtitle-letter-spacing: var(
+        --hy-typo-ref-headline-small-tracking
+    );
+}

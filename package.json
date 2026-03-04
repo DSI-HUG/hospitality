@@ -28,6 +28,12 @@
         "release": "npm publish ./dist/"
     },
     "exports": {
+        "./material/actions-group": {
+            "sass": "./material/actions-group/actions-group.scss"
+        },
+        "./material/app-bar": {
+            "sass": "./material/app-bar/app-bar.scss"
+        },
         "./material/button": {
             "sass": "./material/button/button.scss"
         },
@@ -37,6 +43,18 @@
         "./material/form-field": {
             "sass": "./material/form-field/form-field.scss"
         },
+        "./material/layout": {
+            "sass": "./material/layout/layout.scss"
+        },
+        "./material/main-bar": {
+            "sass": "./material/main-bar/main-bar.scss"
+        },
+        "./material/panel": {
+            "sass": "./material/panel/panel.scss"
+        },
+        "./material/search-bar-container": {
+            "sass": "./material/search-bar-container/search-bar-container.scss"
+        },
         "./material/theme": {
             "sass": "./material/theme/theme.scss"
         },
@@ -45,7 +63,7 @@
         }
     },
     "peerDependencies": {
-        "@angular/material": "^19.x"
+        "@angular/material": "^21.x"
     },
     "peerDependenciesMeta": {
         "@angular/material": {
@@ -53,12 +71,12 @@
         }
     },
     "devDependencies": {
-        "@angular/common": "^19.2.17",
-        "@angular/compiler-cli": "^19.2.17",
-        "@angular/core": "^19.2.17",
-        "@angular/forms": "^19.2.17",
-        "@angular/material": "^19.2.19",
-        "ng-packagr": "^19.2.2",
+        "@angular/common": "^21.2.0",
+        "@angular/compiler-cli": "^21.2.0",
+        "@angular/core": "^21.2.0",
+        "@angular/forms": "^21.2.0",
+        "@angular/material": "^21.2.0",
+        "ng-packagr": "^21.2.0",
         "@commitlint/cli": "^20.2.0",
         "@commitlint/config-conventional": "^20.2.0",
         "@hug/eslint-config": "^20.3.3",
