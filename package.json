@@ -49,6 +49,9 @@
         "./material/panel": {
             "sass": "./material/panel/panel.scss"
         },
+        "./material/search-bar-container": {
+            "sass": "./material/search-bar-container/search-bar-container.scss"
+        },
         "./material/theme": {
             "sass": "./material/theme/theme.scss"
         },

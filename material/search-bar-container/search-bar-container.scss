@@ -1,0 +1,13 @@
+ngx-search-bar-container {
+    --ngx-search-bar-container-radius: var(--hy-radius-x-large);
+
+    --ngx-search-bar-container-block-size: 48px;
+    --ngx-search-bar-container-padding-inline-start: var(
+        --hy-spacing-medium-large
+    );
+    --ngx-search-bar-container-padding-inline-end: var(--hy-spacing-x-small);
+    --ngx-search-bar-container-gap: var(--hy-spacing-xx-small);
+
+    --ngx-search-bar-folded-container-padding: 0 var(--hy-spacing-x-small);
+    --ngx-search-bar-icon-padding: var(--hy-spacing-small);
+}
