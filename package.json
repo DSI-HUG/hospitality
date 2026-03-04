@@ -43,6 +43,9 @@
         "./material/form-field": {
             "sass": "./material/form-field/form-field.scss"
         },
+        "./material/layout": {
+            "sass": "./material/layout/layout.scss"
+        },
         "./material/main-bar": {
             "sass": "./material/main-bar/main-bar.scss"
         },
