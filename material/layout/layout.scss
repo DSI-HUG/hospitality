@@ -1,6 +1,6 @@
 ngx-layout {
-    --ngx-layout-gap: var(--hy-spacing-small);
-    --ngx-layout-padding: var(--hy-spacing-medium);
-    --ngx-layout-padding-block-start: 0;
+    --ngx-layout-padding-block-end: var(--hy-spacing-medium-small);
+    --ngx-layout-padding-inline: var(--hy-spacing-medium);
     --ngx-layout-content-gap: var(--hy-spacing-small);
+    --ngx-layout-content-padding-block: var(--hy-spacing-x-small);
 }
