@@ -876,4 +876,14 @@
     --hy-spacing-small: 8px;
     --hy-spacing-x-small: 4px;
     --hy-spacing-xx-small: 2px;
+
+    /**
+    * ==========================================================================
+    * STATE LAYERS TOKENS
+    * ==========================================================================
+    */
+    --hy-state-layer-small: 8%;
+    --hy-state-layer-medium: 10%;
+    --hy-state-layer-large: 16%;
+    --hy-state-layer-x-large: 38%;
 }
