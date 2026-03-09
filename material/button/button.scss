@@ -125,23 +125,22 @@ button {
     }
 
     /* Appearance variants, icon button and button */
-
     &[hy-appearance="warning"] {
         @include mat.button-overrides(
             (
-                filled-container-color: var(--mat-sys-warning),
-                filled-label-text-color: var(--mat-sys-on-warning),
-                filled-state-layer-color: var(--mat-sys-on-warning),
+                filled-container-color: var(--hy-color-warning),
+                filled-label-text-color: var(--hy-color-on-warning),
+                filled-state-layer-color: var(--hy-color-on-warning),
                 filled-ripple-color: color-mix(
                         in srgb,
-                        var(--mat-sys-on-warning) 10%,
+                        var(--hy-color-on-warning) 10%,
                         transparent
                     ),
-                text-label-text-color: var(--mat-sys-warning),
-                text-state-layer-color: var(--mat-sys-warning),
+                text-label-text-color: var(--hy-color-warning),
+                text-state-layer-color: var(--hy-color-warning),
                 text-ripple-color: color-mix(
                         in srgb,
-                        var(--mat-sys-warning) 10%,
+                        var(--hy-color-warning) 10%,
                         transparent
                     ),
             )
@@ -149,11 +148,11 @@ button {
 
         @include mat.icon-button-overrides(
             (
-                icon-color: var(--mat-sys-warning),
-                state-layer-color: var(--mat-sys-warning),
+                icon-color: var(--hy-color-warning),
+                state-layer-color: var(--hy-color-warning),
                 ripple-color: color-mix(
                         in srgb,
-                        var(--mat-sys-warning) 10%,
+                        var(--hy-color-warning) 10%,
                         transparent
                     ),
             )
@@ -161,22 +160,21 @@ button {
     }
 
     /* Icon buttons appearance variants */
-
     &[hy-appearance="warning-filled"] {
         @include mat.icon-button-overrides(
             (
-                icon-color: var(--mat-sys-on-warning),
-                state-layer-color: var(--mat-sys-on-warning),
+                icon-color: var(--hy-color-on-warning),
+                state-layer-color: var(--hy-color-on-warning),
                 ripple-color: color-mix(
                         in srgb,
-                        var(--mat-sys-on-warning) 10%,
+                        var(--hy-color-on-warning) 10%,
                         transparent
                     ),
             )
         );
 
         &[matIconButton]:enabled {
-            background-color: var(--mat-sys-warning);
+            background-color: var(--hy-color-warning);
         }
     }
 
