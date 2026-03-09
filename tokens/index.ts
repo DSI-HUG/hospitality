@@ -38,6 +38,7 @@ const tokens: {
     typographies: Tokens;
     radius: ReferencesTokens;
     spacing: ReferencesTokens;
+    stateLayers: ReferencesTokens;
 } = rawTokens;
 
 export { tokens };
