@@ -438,7 +438,7 @@
     );
     --hy-color-background: light-dark(
         var(--hy-color-ref-neutral-variant-99),
-        var(--hy-color-ref-neutral-variant-10)
+        var(--hy-color-ref-neutral-variant-5)
     );
     --hy-color-on-background: light-dark(
         var(--hy-color-ref-neutral-variant-10),
@@ -446,7 +446,7 @@
     );
     --hy-color-surface: light-dark(
         var(--hy-color-ref-neutral-variant-98),
-        var(--hy-color-ref-neutral-variant-10)
+        var(--hy-color-ref-neutral-variant-5)
     );
     --hy-color-on-surface: light-dark(
         var(--hy-color-ref-neutral-variant-10),
@@ -542,7 +542,7 @@
     );
     --hy-color-surface-dim: light-dark(
         var(--hy-color-ref-neutral-variant-90),
-        var(--hy-color-ref-neutral-variant-10)
+        var(--hy-color-ref-neutral-variant-5)
     );
     --hy-color-surface-bright: light-dark(
         var(--hy-color-ref-neutral-variant-98),
