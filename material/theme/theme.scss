@@ -2,58 +2,178 @@
 @use "./utils" as map;
 
 $override-colors: (
+    //Primary
     primary: var(--hy-color-primary),
     on-primary: var(--hy-color-on-primary),
     primary-container: var(--hy-color-primary-container),
     on-primary-container: var(--hy-color-on-primary-container),
     primary-fixed: var(--hy-color-primary-fixed),
-    primary-fixed-dim: var(--hy-color-primary-fixed-dim),
     on-primary-fixed: var(--hy-color-primary-fixed),
     on-primary-fixed-variant: var(--hy-color-on-primary-fixed-variant),
+    primary-fixed-dim: var(--hy-color-primary-fixed-dim),
+    inverse-primary: var(--hy-color-inverse-primary),
+    //Secondary
     secondary: var(--hy-color-secondary),
     on-secondary: var(--hy-color-on-secondary),
     secondary-container: var(--hy-color-secondary-container),
     on-secondary-container: var(--hy-color-on-secondary-container),
     secondary-fixed: var(--hy-color-secondary-fixed),
-    secondary-fixed-dim: var(--hy-color-secondary-fixed-dim),
     on-secondary-fixed: var(--hy-color-secondary-fixed),
     on-secondary-fixed-variant: var(--hy-color-on-secondary-fixed-variant),
+    secondary-fixed-dim: var(--hy-color-secondary-fixed-dim),
+    //Tertiary
     tertiary: var(--hy-color-tertiary),
     on-tertiary: var(--hy-color-on-tertiary),
     tertiary-container: var(--hy-color-tertiary-container),
     on-tertiary-container: var(--hy-color-on-tertiary-container),
     tertiary-fixed: var(--hy-color-tertiary-fixed),
-    tertiary-fixed-dim: var(--hy-color-tertiary-fixed-dim),
     on-tertiary-fixed: var(--hy-color-tertiary-fixed),
     on-tertiary-fixed-variant: var(--hy-color-on-tertiary-fixed-variant),
+    tertiary-fixed-dim: var(--hy-color-tertiary-fixed-dim),
+    //Error
     error: var(--hy-color-error),
     on-error: var(--hy-color-on-error),
     error-container: var(--hy-color-error-container),
     on-error-container: var(--hy-color-on-error-container),
+    //Surface
     surface: var(--hy-color-surface),
-    surface-dim: var(--hy-color-surface-dim),
+    on-surface: var(--hy-color-on-surface),
+    on-surface-variant: var(--hy-color-on-surface-variant),
     surface-bright: var(--hy-color-surface-bright),
-    surface-container-lowest: var(--hy-color-surface-container-lowest),
-    surface-container-low: var(--hy-color-surface-container-low),
     surface-container: var(--hy-color-surface-container),
     surface-container-high: var(--hy-color-surface-container-high),
     surface-container-highest: var(--hy-color-surface-container-highest),
-    on-surface: var(--hy-color-on-surface),
-    on-surface-variant: var(--hy-color-on-surface-variant),
-    outline: var(--hy-color-outline),
-    outline-variant: var(--hy-color-outline-variant),
+    surface-container-low: var(--hy-color-surface-container-low),
+    surface-container-lowest: var(--hy-color-surface-container-lowest),
+    surface-dim: var(--hy-color-surface-dim),
+    surface-tint: var(--hy-color-surface-tint),
+    surface-variant: var(--hy-color-surface-variant),
     inverse-surface: var(--hy-color-inverse-surface),
     inverse-on-surface: var(--hy-color-inverse-on-surface),
-    inverse-primary: var(--hy-color-inverse-primary),
+    //Miscellaneous
     background: var(--hy-color-background),
     on-background: var(--hy-color-on-background),
-    surface-variant: var(--hy-color-surface-variant),
-    surface-tint: var(--hy-color-surface-tint),
+    neutral-variant20: var(--hy-color-ref-neutral-variant-20),
+    neutral10: var(--hy-color-ref-neutral-10),
+    outline: var(--hy-color-outline),
+    outline-variant: var(--hy-color-outline-variant),
     scrim: var(--hy-color-scrim),
-    shadow: var(--hy-color-shadow),
+    shadow: var(--hy-color-shadow)
 );
 
-$override-typography: ();
+$override-typography: (
+    //Body Large
+    body-large: var(--hy-typo-body-large),
+    body-large-font: var(--hy-typo-ref-body-large-font),
+    body-large-line-height: var(--hy-typo-ref-body-large-line-height),
+    body-large-size: var(--hy-typo-ref-body-large-size),
+    body-large-tracking: var(--hy-typo-ref-body-large-tracking),
+    body-large-weight: var(--hy-typo-ref-body-large-weight),
+    //Body Medium
+    body-medium: var(--hy-typo-body-medium),
+    body-medium-font: var(--hy-typo-ref-body-medium-font),
+    body-medium-line-height: var(--hy-typo-ref-body-medium-line-height),
+    body-medium-size: var(--hy-typo-ref-body-medium-size),
+    body-medium-tracking: var(--hy-typo-ref-body-medium-tracking),
+    body-medium-weight: var(--hy-typo-ref-body-medium-weight),
+    //Body Small
+    body-small: var(--hy-typo-body-small),
+    body-small-font: var(--hy-typo-ref-body-small-font),
+    body-small-line-height: var(--hy-typo-ref-body-small-line-height),
+    body-small-size: var(--hy-typo-ref-body-small-size),
+    body-small-tracking: var(--hy-typo-ref-body-small-tracking),
+    body-small-weight: var(--hy-typo-ref-body-small-weight),
+    //Display Large
+    display-large: var(--hy-typo-display-large),
+    display-large-font: var(--hy-typo-ref-display-large-font),
+    display-large-line-height: var(--hy-typo-ref-display-large-line-height),
+    display-large-size: var(--hy-typo-ref-display-large-size),
+    display-large-tracking: var(--hy-typo-ref-display-large-tracking),
+    display-large-weight: var(--hy-typo-ref-display-large-weight),
+    //Display Medium
+    display-medium: var(--hy-typo-display-medium),
+    display-medium-font: var(--hy-typo-ref-display-medium-font),
+    display-medium-line-height: var(--hy-typo-ref-display-medium-line-height),
+    display-medium-size: var(--hy-typo-ref-display-medium-size),
+    display-medium-tracking: var(--hy-typo-ref-display-medium-tracking),
+    display-medium-weight: var(--hy-typo-ref-display-medium-weight),
+    //Display Small
+    display-small: var(--hy-typo-display-small),
+    display-small-font: var(--hy-typo-ref-display-small-font),
+    display-small-line-height: var(--hy-typo-ref-display-small-line-height),
+    display-small-size: var(--hy-typo-ref-display-small-size),
+    display-small-tracking: var(--hy-typo-ref-display-small-tracking),
+    display-small-weight: var(--hy-typo-ref-display-small-weight),
+    //Headline Large
+    headline-large: var(--hy-typo-headline-large),
+    headline-large-font: var(--hy-typo-ref-headline-large-font),
+    headline-large-line-height: var(--hy-typo-ref-headline-large-line-height),
+    headline-large-size: var(--hy-typo-ref-headline-large-size),
+    headline-large-tracking: var(--hy-typo-ref-headline-large-tracking),
+    headline-large-weight: var(--hy-typo-ref-headline-large-weight),
+    //Headline Medium
+    headline-medium: var(--hy-typo-headline-medium),
+    headline-medium-font: var(--hy-typo-ref-headline-medium-font),
+    headline-medium-line-height: var(--hy-typo-ref-headline-medium-line-height),
+    headline-medium-size: var(--hy-typo-ref-headline-medium-size),
+    headline-medium-tracking: var(--hy-typo-ref-headline-medium-tracking),
+    headline-medium-weight: var(--hy-typo-ref-headline-medium-weight),
+    //Headline Small
+    headline-small: var(--hy-typo-headline-small),
+    headline-small-font: var(--hy-typo-ref-headline-small-font),
+    headline-small-line-height: var(--hy-typo-ref-headline-small-line-height),
+    headline-small-size: var(--hy-typo-ref-headline-small-size),
+    headline-small-tracking: var(--hy-typo-ref-headline-small-tracking),
+    headline-small-weight: var(--hy-typo-ref-headline-small-weight),
+    //Label Large
+    label-large: var(--hy-typo-label-large),
+    label-large-font: var(--hy-typo-ref-label-large-font),
+    label-large-line-height: var(--hy-typo-ref-label-large-line-height),
+    label-large-size: var(--hy-typo-ref-label-large-size),
+    label-large-tracking: var(--hy-typo-ref-label-large-tracking),
+    label-large-weight: var(--hy-typo-ref-label-large-weight),
+    label-large-weight-prominent: var(
+            --hy-typo-ref-label-large-weight-emphasized
+        ),
+    //Label Medium
+    label-medium: var(--hy-typo-label-medium),
+    label-medium-font: var(--hy-typo-ref-label-medium-font),
+    label-medium-line-height: var(--hy-typo-ref-label-medium-line-height),
+    label-medium-size: var(--hy-typo-ref-label-medium-size),
+    label-medium-tracking: var(--hy-typo-ref-label-medium-tracking),
+    label-medium-weight: var(--hy-typo-ref-label-medium-weight),
+    label-medium-weight-prominent: var(
+            --hy-typo-ref-label-medium-weight-emphasized
+        ),
+    //Label Small
+    label-small: var(--hy-typo-label-small),
+    label-small-font: var(--hy-typo-ref-label-small-font),
+    label-small-line-height: var(--hy-typo-ref-label-small-line-height),
+    label-small-size: var(--hy-typo-ref-label-small-size),
+    label-small-tracking: var(--hy-typo-ref-label-small-tracking),
+    label-small-weight: var(--hy-typo-ref-label-small-weight),
+    //Title Large
+    title-large: var(--hy-typo-title-large),
+    title-large-font: var(--hy-typo-ref-title-large-font),
+    title-large-line-height: var(--hy-typo-ref-title-large-line-height),
+    title-large-size: var(--hy-typo-ref-title-large-size),
+    title-large-tracking: var(--hy-typo-ref-title-large-tracking),
+    title-large-weight: var(--hy-typo-ref-title-large-weight),
+    //Title Medium
+    title-medium: var(--hy-typo-title-medium),
+    title-medium-font: var(--hy-typo-ref-title-medium-font),
+    title-medium-line-height: var(--hy-typo-ref-title-medium-line-height),
+    title-medium-size: var(--hy-typo-ref-title-medium-size),
+    title-medium-tracking: var(--hy-typo-ref-title-medium-tracking),
+    title-medium-weight: var(--hy-typo-ref-title-medium-weight),
+    //Title Small
+    title-small: var(--hy-typo-title-small),
+    title-small-font: var(--hy-typo-ref-title-small-font),
+    title-small-line-height: var(--hy-typo-ref-title-small-line-height),
+    title-small-size: var(--hy-typo-ref-title-small-size),
+    title-small-tracking: var(--hy-typo-ref-title-small-tracking),
+    title-small-weight: var(--hy-typo-ref-title-small-weight)
+);
 
 $override-density: ();
 
