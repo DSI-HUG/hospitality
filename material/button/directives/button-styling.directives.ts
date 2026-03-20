@@ -3,7 +3,7 @@ import { HyButtonSizeDirective } from './button-size.directive';
 import { HyIconButtonAppearanceDirective } from './icon-button-appearance.directive';
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
-export const ButtonStylingDirectives = [
+export const HyButtonStylingDirectives = [
     HyButtonSizeDirective,
     HyButtonAppearanceDirective,
     HyIconButtonAppearanceDirective
