@@ -45,7 +45,7 @@ button {
 
     /* Size variants, icon button and button */
 
-    &[hy-size="small"] {
+    &[hySize="small"] {
         gap: 0.25rem;
 
         @include mat.button-density(-1);
@@ -74,7 +74,7 @@ button {
         }
     }
 
-    &[hy-size="x-large"] {
+    &[hySize="x-large"] {
         @include mat.button-overrides(
             (
                 filled-container-height: 3.5rem,
@@ -125,7 +125,7 @@ button {
     }
 
     /* Appearance variants, icon button and button */
-    &[hy-appearance="warning"] {
+    &[hyAppearance="warning"] {
         @include mat.button-overrides(
             (
                 filled-container-color: var(--hy-color-warning),
@@ -160,7 +160,7 @@ button {
     }
 
     /* Icon buttons appearance variants */
-    &[hy-appearance="warning-filled"] {
+    &[hyAppearance="warning-filled"] {
         @include mat.icon-button-overrides(
             (
                 icon-color: var(--hy-color-on-warning),
@@ -178,7 +178,7 @@ button {
         }
     }
 
-    &[hy-appearance="tonal"] {
+    &[hyAppearance="tonal"] {
         @include mat.icon-button-overrides(
             (
                 icon-color: var(--mat-sys-on-secondary-container),
@@ -196,7 +196,7 @@ button {
         }
     }
 
-    &[hy-appearance="filled"] {
+    &[hyAppearance="filled"] {
         background-color: var(--mat-sys-primary);
 
         @include mat.icon-button-overrides(
@@ -212,9 +212,9 @@ button {
         );
     }
 
-    &[hy-appearance="tonal"],
-    &[hy-appearance="filled"],
-    &[hy-appearance="warning-filled"] {
+    &[hyAppearance="tonal"],
+    &[hyAppearance="filled"],
+    &[hyAppearance="warning-filled"] {
         &:disabled {
             background-color: color-mix(
                 in srgb,
