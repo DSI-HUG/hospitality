@@ -37,8 +37,14 @@
         "./material/button": {
             "sass": "./material/button/button.scss"
         },
+        "./material/column-bar": {
+            "sass": "./material/column-bar/column-bar.scss"
+        },
         "./material/dialog": {
             "sass": "./material/dialog/dialog.scss"
+        },
+        "./material/filters-group": {
+            "sass": "./material/filters-group/filters-group.scss"
         },
         "./material/form-field": {
             "sass": "./material/form-field/form-field.scss"
@@ -51,6 +57,9 @@
         },
         "./material/panel": {
             "sass": "./material/panel/panel.scss"
+        },
+        "./material/panel-bar": {
+            "sass": "./material/panel-bar/panel-bar.scss"
         },
         "./material/search-bar-container": {
             "sass": "./material/search-bar-container/search-bar-container.scss"
