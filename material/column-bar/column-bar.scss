@@ -1,5 +1,5 @@
 ngx-column-bar {
-    --ngx-column-bar-min-height: 48px;
+    --ngx-column-bar-min-height: 3rem;
     --ngx-column-bar-padding: var(--hy-spacing-x-small);
     --ngx-column-bar-title-first-child-padding-inline-start: var(
         --hy-spacing-x-small
@@ -8,6 +8,6 @@ ngx-column-bar {
     --ngx-column-bar-gap: var(--hy-spacing-medium-small);
     --ngx-column-bar-elements-gap: var(--hy-spacing-medium-small);
 
-    --ngx-column-bar-actions-group-min-inline-size: 48px;
+    --ngx-column-bar-actions-group-min-inline-size: 3rem;
     --ngx-column-bar-title-min-width: 6ch;
 }
