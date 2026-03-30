@@ -3,8 +3,7 @@ ngx-app-bar {
     --ngx-app-bar-gap: var(--hy-spacing-x-small);
     --ngx-app-bar-condensed-gap: var(--hy-spacing-small);
     --ngx-app-bar-actions-gap: var(--hy-spacing-small);
-    --ngx-app-bar-with-subtitle-padding: var(--hy-spacing-x-small)
-        var(--hy-spacing-medium);
+    --ngx-app-bar-padding: var(--hy-spacing-x-small) var(--hy-spacing-medium);
 
     --ngx-app-bar-title-font: var(--hy-typo-headline-medium-emphasized);
     --ngx-app-bar-title-letter-spacing: var(
