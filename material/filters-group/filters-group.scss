@@ -1,6 +1,6 @@
 ngx-filters-group {
     --ngx-filters-group-selected-label-max-width: 27ch;
-    --ngx-filters-group-title-overlay-max-width: 27ch;
+    --ngx-filters-group-overlay-title-max-width: 27ch;
 
     --ngx-filters-group-gap: var(--hy-spacing-small);
     --ngx-filters-group-static-gap: var(--hy-spacing-small);
@@ -8,13 +8,13 @@ ngx-filters-group {
     --ngx-filters-group-overlay-content-filter-gap: var(--hy-spacing-small);
 
     --ngx-filters-group-block-size: 3rem;
-    --ngx-filters-group-border-radius: var(--hy-border-radius-x-large);
+    --ngx-filters-group-radius: var(--hy-border-radius-x-large);
     --ngx-filters-group-first-chip-option-shape-radius: var(
             --hy-border-radius-medium
         )
         var(--hy-border-radius-small) var(--hy-border-radius-small)
         var(--hy-border-radius-medium);
-    --ngx-filters-group-overlay-border-radius: var(--hy-border-radius-small);
+    --ngx-filters-group-overlay-radius: var(--hy-border-radius-small);
     --ngx-filters-group-first-chip-shape-radius: var(--hy-border-radius-small);
 
     --ngx-filters-group-overlay-filter-padding: var(--hy-spacing-medium);
