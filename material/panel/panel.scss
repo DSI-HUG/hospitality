@@ -2,7 +2,18 @@ ngx-panel {
     --ngx-panel-radius: var(--hy-radius-x-large);
 
     --ngx-panel-padding: var(--hy-spacing-x-small);
+
     --ngx-panel-content-gap: var(--hy-spacing-small);
-    --ngx-panel-content-padding-inline: var(--hy-spacing-small);
-    --ngx-panel-content-padding-block-end: var(--hy-spacing-medium-small);
+    --ngx-panel-content-padding: var(--hy-spacing-x-small)
+        var(--hy-spacing-medium-small);
+    --ngx-panel-content-column-gap: var(--hy-spacing-small);
+
+    --ngx-panel-content-column-divider-width: 1px;
+    --ngx-panel-content-divider-inset-inline-start: -4px;
+    --ngx-panel-content-first-column-margin-inline-start: var(
+        --hy-spacing-x-small
+    );
+    --ngx-panel-content-last-column-margin-inline-end: var(
+        --hy-spacing-x-small
+    );
 }
