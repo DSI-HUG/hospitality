@@ -3,10 +3,17 @@
 mat-dialog-container {
     @include mat.dialog-overrides(
         (
-            actions-padding: 1.5rem,
-            headline-padding: 0.25rem 1.5rem 1rem,
+            actions-padding: var(--hy-spacing-x-large),
+            headline-padding: var(--hy-spacing-x-small)
+                var(--hy-spacing-x-large) var(--hy-spacing-medium),
         )
     );
+}
+
+.with-divider {
+    mat-dialog-actions {
+        border-top: 1px solid var(--mat-sys-outline-variant);
+    }
 }
 
 .warning-dialog {
@@ -14,7 +21,8 @@ mat-dialog-container {
         @include mat.dialog-overrides(
             (
                 subhead-color: var(--mat-sys-warning),
-                headline-padding: 1.5rem 1.5rem 1rem,
+                headline-padding: var(--hy-spacing-x-large)
+                    var(--hy-spacing-x-large) var(--hy-spacing-medium),
             )
         );
     }
@@ -23,7 +31,7 @@ mat-dialog-container {
         content: "warning";
         font-family: "Material Symbols Outlined Variable";
         display: inline;
-        padding-right: 10px;
+        padding-inline-end: 10px;
         vertical-align: bottom;
     }
 }
