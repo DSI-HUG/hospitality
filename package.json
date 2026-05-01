@@ -51,7 +51,8 @@
         }
     },
     "peerDependencies": {
-        "@angular/material": "^21.x"
+        "@angular/material": "^21.x",
+        "@fontsource-variable/material-symbols-outlined": "^5.2.0"
     },
     "peerDependenciesMeta": {
         "@angular/material": {
@@ -64,6 +65,7 @@
         "@angular/core": "^21.2.0",
         "@angular/forms": "^21.2.0",
         "@angular/material": "^21.2.0",
+        "@fontsource-variable/material-symbols-outlined": "^5.2.0",
         "@commitlint/cli": "^20.2.0",
         "@commitlint/config-conventional": "^20.2.0",
         "@hug/eslint-config": "^20.3.3",
@@ -104,8 +106,5 @@
     "engines": {
         "yarn": "Please use Npm instead of Yarn."
     },
-    "packageManager": "npm@11.7.0",
-    "dependencies": {
-        "@fontsource-variable/material-symbols-outlined": "^5.2.43"
-    }
+    "packageManager": "npm@11.7.0"
 }
