@@ -28,41 +28,20 @@
         "release": "npm publish ./dist/"
     },
     "exports": {
-        "./material/actions-group": {
-            "sass": "./material/actions-group/actions-group.scss"
-        },
         "./material/app-bar": {
             "sass": "./material/app-bar/app-bar.scss"
         },
         "./material/button": {
             "sass": "./material/button/button.scss"
         },
-        "./material/column-bar": {
-            "sass": "./material/column-bar/column-bar.scss"
+        "./material/common": {
+            "sass": "./material/common/common.scss"
         },
         "./material/dialog": {
             "sass": "./material/dialog/dialog.scss"
         },
-        "./material/filters-group": {
-            "sass": "./material/filters-group/filters-group.scss"
-        },
         "./material/form-field": {
             "sass": "./material/form-field/form-field.scss"
-        },
-        "./material/layout": {
-            "sass": "./material/layout/layout.scss"
-        },
-        "./material/main-bar": {
-            "sass": "./material/main-bar/main-bar.scss"
-        },
-        "./material/panel": {
-            "sass": "./material/panel/panel.scss"
-        },
-        "./material/panel-bar": {
-            "sass": "./material/panel-bar/panel-bar.scss"
-        },
-        "./material/search-bar-container": {
-            "sass": "./material/search-bar-container/search-bar-container.scss"
         },
         "./material/theme": {
             "sass": "./material/theme/theme.scss"
