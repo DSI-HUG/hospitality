@@ -34,14 +34,17 @@
         "./material/button": {
             "sass": "./material/button/button.scss"
         },
-        "./material/common": {
-            "sass": "./material/common/common.scss"
-        },
         "./material/dialog": {
             "sass": "./material/dialog/dialog.scss"
         },
         "./material/form-field": {
             "sass": "./material/form-field/form-field.scss"
+        },
+        "./material/icon": {
+            "sass": "./material/icon/icon.scss"
+        },
+        "./material/scrollbar": {
+            "sass": "./material/scrollbar/scrollbar.scss"
         },
         "./material/theme": {
             "sass": "./material/theme/theme.scss"
