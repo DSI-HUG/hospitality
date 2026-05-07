@@ -4,15 +4,15 @@
 }
 
 ::-webkit-scrollbar-track {
-    margin-bottom: 12px;
+    margin-bottom: var(--hy-spacing-medium-small);
 }
 
 ::-webkit-scrollbar-thumb {
     transition: 0.3s ease-in-out;
     border-radius: 6px;
-    background-color: var(--hy-color-outline-variant);
+    background-color: var(--mat-sys-outline-variant);
 
     &:hover {
-        background-color: var(--hy-color-outline);
+        background-color: var(--mat-sys-outline);
     }
 }
