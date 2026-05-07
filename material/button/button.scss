@@ -3,6 +3,18 @@
 button {
     gap: 0.5rem;
 
+    &.mat-mdc-button-base {
+        min-width: 0;
+        max-width: 100%;
+
+        > .mdc-button__label {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+
     @include mat.button-overrides(
         (
             filled-horizontal-padding: 1rem,
