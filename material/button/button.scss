@@ -1,7 +1,7 @@
 @use "@angular/material" as mat;
 
 button {
-    gap: 0.5rem;
+    gap: var(--hy-spacing-small);
 
     &.mat-mdc-button-base {
         min-width: 0;
@@ -17,22 +17,22 @@ button {
 
     @include mat.button-overrides(
         (
-            filled-horizontal-padding: 1rem,
-            outlined-horizontal-padding: 1rem,
-            tonal-horizontal-padding: 1rem,
-            text-horizontal-padding: 1rem,
-            text-with-icon-horizontal-padding: 1rem,
+            filled-horizontal-padding: var(--hy-spacing-medium),
+            outlined-horizontal-padding: var(--hy-spacing-medium),
+            tonal-horizontal-padding: var(--hy-spacing-medium),
+            text-horizontal-padding: var(--hy-spacing-medium),
+            text-with-icon-horizontal-padding: var(--hy-spacing-medium),
             outlined-label-text-color: var(--mat-sys-on-surface-variant),
             outlined-outline-color: var(--mat-sys-outline-variant),
             outlined-disabled-outline-color: var(--mat-sys-outline-variant),
             outlined-state-layer-color: color-mix(
                     in srgb,
-                    var(--mat-sys-on-surface) 38%,
+                    var(--mat-sys-on-surface) var(--hy-state-layer-x-large),
                     transparent
                 ),
             outlined-ripple-color: color-mix(
                     in srgb,
-                    var(--mat-sys-on-surface) 10%,
+                    var(--mat-sys-on-surface) var(--hy-state-layer-medium),
                     transparent
                 ),
         )
@@ -49,7 +49,7 @@ button {
         &:disabled {
             background-color: color-mix(
                 in srgb,
-                var(--mat-sys-on-surface) 12%,
+                var(--mat-sys-on-surface) var(--hy-state-layer-medium),
                 transparent
             );
         }
@@ -58,16 +58,18 @@ button {
     /* Size variants, icon button and button */
 
     &[hySize="small"] {
-        gap: 0.25rem;
+        gap: var(--hy-spacing-x-small);
 
         @include mat.button-density(-1);
         @include mat.button-overrides(
             (
-                filled-horizontal-padding: 0.75rem,
-                outlined-horizontal-padding: 0.75rem,
-                tonal-horizontal-padding: 0.75rem,
-                text-horizontal-padding: 0.75rem,
-                text-with-icon-horizontal-padding: 0.75rem,
+                filled-horizontal-padding: var(--hy-spacing-medium-small),
+                outlined-horizontal-padding: var(--hy-spacing-medium-small),
+                tonal-horizontal-padding: var(--hy-spacing-medium-small),
+                text-horizontal-padding: var(--hy-spacing-medium-small),
+                text-with-icon-horizontal-padding: var(
+                        --hy-spacing-medium-small
+                    ),
             )
         );
         @include mat.icon-button-overrides(
@@ -94,12 +96,11 @@ button {
                 tonal-container-height: 3.5rem,
                 text-container-height: 3.5rem,
 
-                filled-horizontal-padding: 1.5rem,
-                outlined-horizontal-padding: 1.5rem,
-                tonal-horizontal-padding: 1.5rem,
-                text-horizontal-padding: 1.5rem,
-                text-with-icon-horizontal-padding: 1.5rem,
-
+                filled-horizontal-padding: var(--hy-spacing-x-large),
+                outlined-horizontal-padding: var(--hy-spacing-x-large),
+                tonal-horizontal-padding: var(--hy-spacing-x-large),
+                text-horizontal-padding: var(--hy-spacing-x-large),
+                text-with-icon-horizontal-padding: var(--hy-spacing-x-large),
                 filled-label-text-font: var(--mat-sys-title-medium-font),
                 outlined-label-text-font: var(--mat-sys-title-medium-font),
                 tonal-label-text-font: var(--mat-sys-title-medium-font),
@@ -145,14 +146,14 @@ button {
                 filled-state-layer-color: var(--hy-color-on-warning),
                 filled-ripple-color: color-mix(
                         in srgb,
-                        var(--hy-color-on-warning) 10%,
+                        var(--hy-color-on-warning) var(--hy-state-layer-medium),
                         transparent
                     ),
                 text-label-text-color: var(--hy-color-warning),
                 text-state-layer-color: var(--hy-color-warning),
                 text-ripple-color: color-mix(
                         in srgb,
-                        var(--hy-color-warning) 10%,
+                        var(--hy-color-warning) var(--hy-state-layer-medium),
                         transparent
                     ),
             )
@@ -164,7 +165,7 @@ button {
                 state-layer-color: var(--hy-color-warning),
                 ripple-color: color-mix(
                         in srgb,
-                        var(--hy-color-warning) 10%,
+                        var(--hy-color-warning) var(--hy-state-layer-medium),
                         transparent
                     ),
             )
@@ -179,7 +180,7 @@ button {
                 state-layer-color: var(--hy-color-on-warning),
                 ripple-color: color-mix(
                         in srgb,
-                        var(--hy-color-on-warning) 10%,
+                        var(--hy-color-on-warning) var(--hy-state-layer-medium),
                         transparent
                     ),
             )
@@ -197,7 +198,8 @@ button {
                 state-layer-color: var(--mat-sys-on-secondary-container),
                 ripple-color: color-mix(
                         in srgb,
-                        var(--mat-sys-on-secondary-container) 10%,
+                        var(--mat-sys-on-secondary-container)
+                            var(--hy-state-layer-medium),
                         transparent
                     ),
             )
@@ -217,7 +219,7 @@ button {
                 state-layer-color: var(--mat-sys-on-primary),
                 ripple-color: color-mix(
                         in srgb,
-                        var(--mat-sys-on-primary) 10%,
+                        var(--mat-sys-on-primary) var(--hy-state-layer-medium),
                         transparent
                     ),
             )
@@ -230,7 +232,7 @@ button {
         &:disabled {
             background-color: color-mix(
                 in srgb,
-                var(--mat-sys-on-surface) 10%,
+                var(--mat-sys-on-surface) var(--hy-state-layer-medium),
                 transparent
             );
         }
