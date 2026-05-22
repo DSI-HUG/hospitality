@@ -3,10 +3,6 @@
     height: 10px;
 }
 
-::-webkit-scrollbar-track {
-    margin-bottom: var(--hy-spacing-medium-small);
-}
-
 ::-webkit-scrollbar-thumb {
     transition: 0.3s ease-in-out;
     border-radius: 6px;
