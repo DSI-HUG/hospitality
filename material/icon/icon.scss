@@ -22,4 +22,12 @@ mat-icon,
     &.outlined {
         font-variation-settings: "FILL" 0;
     }
+
+    &.small {
+        font-size: 20px;
+    }
+
+    &.x-small {
+        font-size: 18px;
+    }
 }
