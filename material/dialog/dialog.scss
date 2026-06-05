@@ -20,7 +20,7 @@ mat-dialog-container {
     mat-dialog-container {
         @include mat.dialog-overrides(
             (
-                subhead-color: var(--mat-sys-warning),
+                subhead-color: var(--hy-color-warning),
                 headline-padding: var(--hy-spacing-x-large)
                     var(--hy-spacing-x-large) var(--hy-spacing-medium),
             )
