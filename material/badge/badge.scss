@@ -1,0 +1,43 @@
+@use "@angular/material" as mat;
+
+.mat-badge {
+    @include mat.badge-overrides(
+        (
+            background-color: var(--mat-sys-tertiary),
+            text-color: var(--mat-sys-on-tertiary),
+            disabled-state-background-color: color-mix(
+                    in srgb,
+                    var(--mat-sys-tertiary) var(--hy-state-layer-x-large),
+                    transparent
+                ),
+        )
+    );
+
+    &[hyBadgeAppearance="warning"] {
+        @include mat.badge-overrides(
+            (
+                background-color: var(--hy-color-warning),
+                text-color: var(--hy-color-on-warning),
+                disabled-state-background-color: color-mix(
+                        in srgb,
+                        var(--hy-color-warning) var(--hy-state-layer-x-large),
+                        transparent
+                    ),
+            )
+        );
+    }
+
+    &[hyBadgeAppearance="error"] {
+        @include mat.badge-overrides(
+            (
+                background-color: var(--mat-sys-error),
+                text-color: var(--mat-sys-on-error),
+                disabled-state-background-color: color-mix(
+                        in srgb,
+                        var(--mat-sys-error) var(--hy-state-layer-x-large),
+                        transparent
+                    ),
+            )
+        );
+    }
+}

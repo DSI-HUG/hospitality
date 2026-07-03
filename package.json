@@ -31,6 +31,9 @@
         "./material/app-bar": {
             "sass": "./material/app-bar/app-bar.scss"
         },
+        "./material/badge": {
+            "sass": "./material/badge/badge.scss"
+        },
         "./material/button": {
             "sass": "./material/button/button.scss"
         },
