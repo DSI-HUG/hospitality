@@ -727,8 +727,8 @@
     * STATE LAYERS TOKENS
     * =================================================================================
     */
-    --hy-state-layer-small: 8%;
-    --hy-state-layer-medium: 10%;
-    --hy-state-layer-large: 16%;
-    --hy-state-layer-x-large: 38%;
+    --hy-state-layer-highest: 38%;
+    --hy-state-layer-high: 16%;
+    --hy-state-layer-low: 10%;
+    --hy-state-layer-lowest: 8%;
 }
