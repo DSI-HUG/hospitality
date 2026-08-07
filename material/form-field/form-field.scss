@@ -74,7 +74,7 @@ mat-form-field {
         mat-hint {
             color: color-mix(
                 in srgb,
-                var(--mat-sys-on-surface-variant) var(--hy-state-layer-x-large),
+                var(--mat-sys-on-surface-variant) var(--hy-state-layer-highest),
                 transparent
             );
         }

@@ -7,7 +7,7 @@
             text-color: var(--mat-sys-on-tertiary),
             disabled-state-background-color: color-mix(
                     in srgb,
-                    var(--mat-sys-tertiary) var(--hy-state-layer-x-large),
+                    var(--mat-sys-tertiary) var(--hy-state-layer-highest),
                     transparent
                 ),
         )
@@ -20,7 +20,7 @@
                 text-color: var(--hy-color-on-warning),
                 disabled-state-background-color: color-mix(
                         in srgb,
-                        var(--hy-color-warning) var(--hy-state-layer-x-large),
+                        var(--hy-color-warning) var(--hy-state-layer-highest),
                         transparent
                     ),
             )
@@ -34,7 +34,7 @@
                 text-color: var(--mat-sys-on-error),
                 disabled-state-background-color: color-mix(
                         in srgb,
-                        var(--mat-sys-error) var(--hy-state-layer-x-large),
+                        var(--mat-sys-error) var(--hy-state-layer-highest),
                         transparent
                     ),
             )

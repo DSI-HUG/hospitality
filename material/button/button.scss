@@ -27,12 +27,12 @@ button {
             outlined-disabled-outline-color: var(--mat-sys-outline-variant),
             outlined-state-layer-color: color-mix(
                     in srgb,
-                    var(--mat-sys-on-surface) var(--hy-state-layer-x-large),
+                    var(--mat-sys-on-surface) var(--hy-state-layer-highest),
                     transparent
                 ),
             outlined-ripple-color: color-mix(
                     in srgb,
-                    var(--mat-sys-on-surface) var(--hy-state-layer-medium),
+                    var(--mat-sys-on-surface) var(--hy-state-layer-low),
                     transparent
                 ),
         )
@@ -49,7 +49,7 @@ button {
         &:disabled {
             background-color: color-mix(
                 in srgb,
-                var(--mat-sys-on-surface) var(--hy-state-layer-medium),
+                var(--mat-sys-on-surface) var(--hy-state-layer-low),
                 transparent
             );
         }
@@ -146,14 +146,14 @@ button {
                 filled-state-layer-color: var(--hy-color-on-warning),
                 filled-ripple-color: color-mix(
                         in srgb,
-                        var(--hy-color-on-warning) var(--hy-state-layer-medium),
+                        var(--hy-color-on-warning) var(--hy-state-layer-low),
                         transparent
                     ),
                 text-label-text-color: var(--hy-color-warning),
                 text-state-layer-color: var(--hy-color-warning),
                 text-ripple-color: color-mix(
                         in srgb,
-                        var(--hy-color-warning) var(--hy-state-layer-medium),
+                        var(--hy-color-warning) var(--hy-state-layer-low),
                         transparent
                     ),
             )
@@ -165,7 +165,7 @@ button {
                 state-layer-color: var(--hy-color-warning),
                 ripple-color: color-mix(
                         in srgb,
-                        var(--hy-color-warning) var(--hy-state-layer-medium),
+                        var(--hy-color-warning) var(--hy-state-layer-low),
                         transparent
                     ),
             )
@@ -180,7 +180,7 @@ button {
                 state-layer-color: var(--hy-color-on-warning),
                 ripple-color: color-mix(
                         in srgb,
-                        var(--hy-color-on-warning) var(--hy-state-layer-medium),
+                        var(--hy-color-on-warning) var(--hy-state-layer-low),
                         transparent
                     ),
             )
@@ -199,7 +199,7 @@ button {
                 ripple-color: color-mix(
                         in srgb,
                         var(--mat-sys-on-secondary-container)
-                            var(--hy-state-layer-medium),
+                            var(--hy-state-layer-low),
                         transparent
                     ),
             )
@@ -219,7 +219,7 @@ button {
                 state-layer-color: var(--mat-sys-on-primary),
                 ripple-color: color-mix(
                         in srgb,
-                        var(--mat-sys-on-primary) var(--hy-state-layer-medium),
+                        var(--mat-sys-on-primary) var(--hy-state-layer-low),
                         transparent
                     ),
             )
@@ -232,7 +232,7 @@ button {
         &:disabled {
             background-color: color-mix(
                 in srgb,
-                var(--mat-sys-on-surface) var(--hy-state-layer-medium),
+                var(--mat-sys-on-surface) var(--hy-state-layer-low),
                 transparent
             );
         }
