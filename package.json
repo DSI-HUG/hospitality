@@ -37,6 +37,9 @@
         "./material/button": {
             "sass": "./material/button/button.scss"
         },
+        "./material/checkbox": {
+            "sass": "./material/checkbox/checkbox.scss"
+        },
         "./material/dialog": {
             "sass": "./material/dialog/dialog.scss"
         },

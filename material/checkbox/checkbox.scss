@@ -1,0 +1,16 @@
+@use "@angular/material" as mat;
+
+mat-checkbox[hyAppearance="error"] {
+    @include mat.checkbox-overrides(
+        (
+            label-text-color: var(--hy-color-error),
+            selected-checkmark-color: var(--hy-color-on-error),
+            selected-focus-icon-color: var(--hy-color-error),
+            selected-hover-icon-color: var(--hy-color-error),
+            selected-icon-color: var(--hy-color-error),
+            unselected-icon-color: var(--hy-color-error),
+            unselected-focus-icon-color: var(--hy-color-error),
+            unselected-hover-icon-color: var(--hy-color-error),
+        )
+    );
+}
