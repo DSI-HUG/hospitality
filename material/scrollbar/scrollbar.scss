@@ -6,9 +6,9 @@
 ::-webkit-scrollbar-thumb {
     transition: 0.3s ease-in-out;
     border-radius: 6px;
-    background-color: var(--mat-sys-outline-variant);
+    background-color: var(--hy-color-outline-variant);
 
     &:hover {
-        background-color: var(--mat-sys-outline);
+        background-color: var(--hy-color-outline);
     }
 }
