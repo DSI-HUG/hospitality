@@ -3,16 +3,27 @@
 mat-dialog-container {
     @include mat.dialog-overrides(
         (
-            actions-padding: var(--hy-spacing-x-large),
+            actions-padding: var(--hy-spacing-medium) var(--hy-spacing-x-large)
+                var(--hy-spacing-large),
             headline-padding: var(--hy-spacing-x-small)
                 var(--hy-spacing-x-large) var(--hy-spacing-medium),
+            with-actions-content-padding: var(--hy-spacing-small)
+                var(--hy-spacing-x-large),
         )
     );
-}
 
-.with-divider {
+    @include mat.divider-overrides(
+        (
+            color: var(--mat-sys-outline),
+        )
+    );
+
+    [mat-dialog-title] {
+        margin: 0;
+    }
+
     mat-dialog-actions {
-        border-top: 1px solid var(--mat-sys-outline-variant);
+        border-top: none;
     }
 }
 
