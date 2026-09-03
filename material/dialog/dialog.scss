@@ -12,11 +12,13 @@ mat-dialog-container {
         )
     );
 
-    @include mat.divider-overrides(
-        (
-            color: var(--mat-sys-outline),
-        )
-    );
+    mat-divider:not(mat-dialog-content *) {
+        @include mat.divider-overrides(
+            (
+                color: var(--mat-sys-outline),
+            )
+        );
+    }
 
     [mat-dialog-title] {
         margin: 0;
