@@ -22,8 +22,8 @@ mat-dialog-container {
         margin: 0;
     }
 
-    mat-dialog-actions {
-        border-top: none;
+    mat-dialog-actions.mat-mdc-dialog-actions {
+        border: none;
     }
 }
 
