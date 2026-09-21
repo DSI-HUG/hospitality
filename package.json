@@ -37,8 +37,14 @@
         "./material/checkbox": {
             "sass": "./material/checkbox/checkbox.scss"
         },
+        "./material/chips": {
+            "sass": "./material/chips/chips.scss"
+        },
         "./material/dialog": {
             "sass": "./material/dialog/dialog.scss"
+        },
+        "./material/filters-group": {
+            "sass": "./material/filters-group/filters-group.scss"
         },
         "./material/form-field": {
             "sass": "./material/form-field/form-field.scss"
