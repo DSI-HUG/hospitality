@@ -127,22 +127,22 @@
     --hy-color-ref-neutral-variant-0: #000000ff;
 
     --hy-color-ref-warning-100: #ffffffff;
-    --hy-color-ref-warning-99: #fffbffff;
-    --hy-color-ref-warning-98: #fff8f4ff;
-    --hy-color-ref-warning-95: #fff0eaff;
-    --hy-color-ref-warning-90: #ffe3d7ff;
-    --hy-color-ref-warning-80: #ffc8b1ff;
-    --hy-color-ref-warning-70: #ffaa85ff;
-    --hy-color-ref-warning-60: #ff8a55ff;
-    --hy-color-ref-warning-50: #ff6925ff;
-    --hy-color-ref-warning-40: #ca4700ff;
-    --hy-color-ref-warning-35: #7a4600ff;
-    --hy-color-ref-warning-30: #772f00ff;
-    --hy-color-ref-warning-25: #593200ff;
-    --hy-color-ref-warning-20: #4b2200ff;
-    --hy-color-ref-warning-15: #3b1f00ff;
-    --hy-color-ref-warning-10: #2c1600ff;
-    --hy-color-ref-warning-5: #1d0d00ff;
+    --hy-color-ref-warning-99: #fef0e6ff;
+    --hy-color-ref-warning-98: #fde0ccff;
+    --hy-color-ref-warning-95: #ffe3c8ff;
+    --hy-color-ref-warning-90: #ffcc9bff;
+    --hy-color-ref-warning-80: #f2b383ff;
+    --hy-color-ref-warning-70: #f5a85aff;
+    --hy-color-ref-warning-60: #e89554ff;
+    --hy-color-ref-warning-50: #e1863bff;
+    --hy-color-ref-warning-40: #da771fff;
+    --hy-color-ref-warning-35: #c0691eff;
+    --hy-color-ref-warning-30: #8b4d00ff;
+    --hy-color-ref-warning-25: #8d4f1bff;
+    --hy-color-ref-warning-20: #744218ff;
+    --hy-color-ref-warning-15: #5d3616ff;
+    --hy-color-ref-warning-10: #432100ff;
+    --hy-color-ref-warning-5: #311e0fff;
     --hy-color-ref-warning-0: #000000ff;
 
     /**
@@ -160,16 +160,16 @@
     --hy-color-pal-blue-50: light-dark(#0970f6ff, #0970f6ff);
     --hy-color-pal-blue-70: light-dark(#6ba9faff, #054394ff);
     --hy-color-pal-blue-90: light-dark(#cee2fdff, #021631ff);
-    --hy-color-pal-green-10: light-dark(#0f340bff, #94e58cff);
-    --hy-color-pal-green-30: light-dark(#1c5d15ff, #47d338ff);
+    --hy-color-pal-green-10: light-dark(#0f340bff, #d3f9cfff);
+    --hy-color-pal-green-30: light-dark(#1c5d15ff, #94e48bff);
     --hy-color-pal-green-50: light-dark(#28871eff, #28871eff);
-    --hy-color-pal-green-70: light-dark(#47d338ff, #1c5d15ff);
-    --hy-color-pal-green-90: light-dark(#94e58cff, #0f340bff);
-    --hy-color-pal-teal-10: light-dark(#052a1fff, #73eec8ff);
-    --hy-color-pal-teal-30: light-dark(#0b5740ff, #1be0a3ff);
+    --hy-color-pal-green-70: light-dark(#94e48bff, #1c5d15ff);
+    --hy-color-pal-green-90: light-dark(#d3f9cfff, #0f340bff);
+    --hy-color-pal-teal-10: light-dark(#052a1fff, #c3f6e6ff);
+    --hy-color-pal-teal-30: light-dark(#0b5740ff, #74e9c5ff);
     --hy-color-pal-teal-50: light-dark(#108561ff, #108561ff);
-    --hy-color-pal-teal-70: light-dark(#1be0a3ff, #0b5740ff);
-    --hy-color-pal-teal-90: light-dark(#73eec8ff, #052a1fff);
+    --hy-color-pal-teal-70: light-dark(#74e9c5ff, #0b5740ff);
+    --hy-color-pal-teal-90: light-dark(#c3f6e6ff, #052a1fff);
     --hy-color-pal-yellow-10: light-dark(#3d3313ff, #fff4ccff);
     --hy-color-pal-yellow-30: light-dark(#786518ff, #ffe998ff);
     --hy-color-pal-yellow-50: light-dark(#ffd500ff, #ffd500ff);
@@ -190,11 +190,91 @@
     --hy-color-pal-brown-50: light-dark(#a66605ff, #a66605ff);
     --hy-color-pal-brown-70: light-dark(#bc8c44ff, #744804ff);
     --hy-color-pal-brown-90: light-dark(#e9d9c1ff, #392302ff);
-    --hy-color-pal-orange-10: light-dark(#432100ff, #ffe3c8ff);
-    --hy-color-pal-orange-30: light-dark(#8b4d00ff, #f5a85aff);
-    --hy-color-pal-orange-50: light-dark(#da771fff, #da771fff);
-    --hy-color-pal-orange-70: light-dark(#f5a85aff, #8b4d00ff);
-    --hy-color-pal-orange-90: light-dark(#ffe3c8ff, #432100ff);
+    --hy-color-pal-orange-10: light-dark(#2c1600ff, #ffe3d7ff);
+    --hy-color-pal-orange-30: light-dark(#772f00ff, #ffaa85ff);
+    --hy-color-pal-orange-50: light-dark(#ca4700ff, #ca4700ff);
+    --hy-color-pal-orange-70: light-dark(#ffaa85ff, #772f00ff);
+    --hy-color-pal-orange-90: light-dark(#ffe3d7ff, #2c1600ff);
+    --hy-color-pal-crimson-10: light-dark(#5c0012ff, #ffe7ebff);
+    --hy-color-pal-crimson-30: light-dark(#9e1c2aff, #f29aaaff);
+    --hy-color-pal-crimson-50: light-dark(#d84a5dff, #d84a5dff);
+    --hy-color-pal-crimson-70: light-dark(#f29aaaff, #9e1c2aff);
+    --hy-color-pal-crimson-90: light-dark(#ffe7ebff, #5c0012ff);
+    --hy-color-pal-plum-10: light-dark(#4a1245ff, #f6eaf5ff);
+    --hy-color-pal-plum-30: light-dark(#7f2f7aff, #d7a2d2ff);
+    --hy-color-pal-plum-50: light-dark(#b056a9ff, #b056a9ff);
+    --hy-color-pal-plum-70: light-dark(#d7a2d2ff, #7f2f7aff);
+    --hy-color-pal-plum-90: light-dark(#f6eaf5ff, #4a1245ff);
+    --hy-color-pal-vermilion-10: light-dark(#5a1700ff, #ffe7ddff);
+    --hy-color-pal-vermilion-30: light-dark(#a23800ff, #f2a382ff);
+    --hy-color-pal-vermilion-50: light-dark(#e0602cff, #e0602cff);
+    --hy-color-pal-vermilion-70: light-dark(#f2a382ff, #a23800ff);
+    --hy-color-pal-vermilion-90: light-dark(#ffe7ddff, #5a1700ff);
+    --hy-color-pal-amber-10: light-dark(#4a2400ff, #fff0dfff);
+    --hy-color-pal-amber-30: light-dark(#8a4b00ff, #e8b07aff);
+    --hy-color-pal-amber-50: light-dark(#c97900ff, #c97900ff);
+    --hy-color-pal-amber-70: light-dark(#e8b07aff, #8a4b00ff);
+    --hy-color-pal-amber-90: light-dark(#fff0dfff, #4a2400ff);
+    --hy-color-pal-mustard-10: light-dark(#403000ff, #f7f0d9ff);
+    --hy-color-pal-mustard-30: light-dark(#706000ff, #d2bf7aff);
+    --hy-color-pal-mustard-50: light-dark(#a58a00ff, #a58a00ff);
+    --hy-color-pal-mustard-70: light-dark(#d2bf7aff, #706000ff);
+    --hy-color-pal-mustard-90: light-dark(#f7f0d9ff, #403000ff);
+    --hy-color-pal-cyan-10: light-dark(#00354aff, #e0f5fdff);
+    --hy-color-pal-cyan-30: light-dark(#006d91ff, #8acbe7ff);
+    --hy-color-pal-cyan-50: light-dark(#1c9dcaff, #1c9dcaff);
+    --hy-color-pal-cyan-70: light-dark(#8acbe7ff, #006d91ff);
+    --hy-color-pal-cyan-90: light-dark(#e0f5fdff, #00354aff);
+    --hy-color-pal-azure-10: light-dark(#002f5eff, #e4f0ffff);
+    --hy-color-pal-azure-30: light-dark(#005fafff, #95c1f2ff);
+    --hy-color-pal-azure-50: light-dark(#2b8ae5ff, #2b8ae5ff);
+    --hy-color-pal-azure-70: light-dark(#95c1f2ff, #005fafff);
+    --hy-color-pal-azure-90: light-dark(#e4f0ffff, #002f5eff);
+    --hy-color-pal-turquoise-10: light-dark(#003939ff, #e3f7f6ff);
+    --hy-color-pal-turquoise-30: light-dark(#007171ff, #93d0d0ff);
+    --hy-color-pal-turquoise-50: light-dark(#1ba7a7ff, #1ba7a7ff);
+    --hy-color-pal-turquoise-70: light-dark(#93d0d0ff, #007171ff);
+    --hy-color-pal-turquoise-90: light-dark(#e3f7f6ff, #003939ff);
+    --hy-color-pal-slate-10: light-dark(#26313aff, #eef2f5ff);
+    --hy-color-pal-slate-30: light-dark(#51616dff, #b9c3cbff);
+    --hy-color-pal-slate-50: light-dark(#7f909cff, #7f909cff);
+    --hy-color-pal-slate-70: light-dark(#b9c3cbff, #51616dff);
+    --hy-color-pal-slate-90: light-dark(#eef2f5ff, #26313aff);
+    --hy-color-pal-moss-10: light-dark(#203a1aff, #edf5eaff);
+    --hy-color-pal-moss-30: light-dark(#4b6a39ff, #b7cbaeff);
+    --hy-color-pal-moss-50: light-dark(#7ea36cff, #7ea36cff);
+    --hy-color-pal-moss-70: light-dark(#b7cbaeff, #4b6a39ff);
+    --hy-color-pal-moss-90: light-dark(#edf5eaff, #203a1aff);
+    --hy-color-pal-fern-10: light-dark(#003b12ff, #e6f7e7ff);
+    --hy-color-pal-fern-30: light-dark(#00752fff, #97ce9dff);
+    --hy-color-pal-fern-50: light-dark(#2f9e53ff, #2f9e53ff);
+    --hy-color-pal-fern-70: light-dark(#97ce9dff, #00752fff);
+    --hy-color-pal-fern-90: light-dark(#e6f7e7ff, #003b12ff);
+    --hy-color-pal-chartreuse-10: light-dark(#2a3500ff, #eff6ddff);
+    --hy-color-pal-chartreuse-30: light-dark(#5b7300ff, #bfd58aff);
+    --hy-color-pal-chartreuse-50: light-dark(#88a700ff, #88a700ff);
+    --hy-color-pal-chartreuse-70: light-dark(#bfd58aff, #5b7300ff);
+    --hy-color-pal-chartreuse-90: light-dark(#eff6ddff, #2a3500ff);
+    --hy-color-pal-lime-10: light-dark(#183900ff, #ebf7dfff);
+    --hy-color-pal-lime-30: light-dark(#3e7600ff, #a9d07dff);
+    --hy-color-pal-lime-50: light-dark(#67a819ff, #67a819ff);
+    --hy-color-pal-lime-70: light-dark(#a9d07dff, #3e7600ff);
+    --hy-color-pal-lime-90: light-dark(#ebf7dfff, #183900ff);
+    --hy-color-pal-caramel-10: light-dark(#432600ff, #faeedcff);
+    --hy-color-pal-caramel-30: light-dark(#785000ff, #d7b27aff);
+    --hy-color-pal-caramel-50: light-dark(#b17700ff, #b17700ff);
+    --hy-color-pal-caramel-70: light-dark(#d7b27aff, #785000ff);
+    --hy-color-pal-caramel-90: light-dark(#faeedcff, #432600ff);
+    --hy-color-pal-olive-10: light-dark(#3b2d00ff, #f7f1dcff);
+    --hy-color-pal-olive-30: light-dark(#6c5a00ff, #cdbe7aff);
+    --hy-color-pal-olive-50: light-dark(#9b8700ff, #9b8700ff);
+    --hy-color-pal-olive-70: light-dark(#cdbe7aff, #6c5a00ff);
+    --hy-color-pal-olive-90: light-dark(#f7f1dcff, #3b2d00ff);
+    --hy-color-pal-orchid-10: light-dark(#43184eff, #f5ecfaff);
+    --hy-color-pal-orchid-30: light-dark(#76419aff, #d0afe4ff);
+    --hy-color-pal-orchid-50: light-dark(#a86ac8ff, #a86ac8ff);
+    --hy-color-pal-orchid-70: light-dark(#d0afe4ff, #76419aff);
+    --hy-color-pal-orchid-90: light-dark(#f5ecfaff, #43184eff);
 
     /**
     * =================================================================================
@@ -271,10 +351,14 @@
     );
     --hy-color-on-warning: light-dark(
         var(--hy-color-ref-warning-100),
-        var(--hy-color-ref-warning-20)
+        var(--hy-color-ref-warning-10)
+    );
+    --hy-color-warning-text: light-dark(
+        var(--hy-color-ref-warning-35),
+        var(--hy-color-ref-warning-90)
     );
     --hy-color-warning-container: light-dark(
-        var(--hy-color-ref-warning-90),
+        var(--hy-color-ref-warning-95),
         var(--hy-color-ref-warning-30)
     );
     --hy-color-on-warning-container: light-dark(
