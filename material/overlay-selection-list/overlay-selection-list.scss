@@ -1,0 +1,145 @@
+@use "@angular/material" as mat;
+
+mat-selection-list.overlay-selection-list {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: var(--hy-spacing-xx-small);
+    padding: 0;
+
+    @include mat.list-overrides(
+        (
+            list-item-one-line-container-height: 36px,
+            list-item-label-text-font: var(--mat-sys-label-large-font),
+            list-item-label-text-line-height: var(
+                    --mat-sys-label-large-line-height
+                ),
+            list-item-label-text-size: var(--mat-sys-label-large-size),
+            list-item-label-text-tracking: var(--mat-sys-label-large-tracking),
+            list-item-label-text-weight: var(--mat-sys-label-large-weight),
+        )
+    );
+
+    &[aria-multiselectable="false"] {
+        mat-list-option {
+            &:not(:has(mat-icon[matListItemIcon])):not(
+                    .indent
+                )[aria-selected="false"] {
+                padding-inline-end: 40px !important;
+            }
+
+            &.indent[aria-selected="false"] {
+                padding-inline-start: 40px !important;
+            }
+
+            &[aria-selected="true"] {
+                padding-inline-end: var(--hy-spacing-medium-small) !important;
+
+                mat-icon,
+                .mat-mdc-list-item-icon {
+                    display: none;
+                }
+
+                .mdc-list-item__content {
+                    display: flex;
+                    gap: var(--hy-spacing-small);
+
+                    &::before {
+                        content: "check";
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        box-sizing: border-box;
+                        inline-size: var(--hy-spacing-large);
+                        block-size: var(--hy-spacing-large);
+                        padding: 0;
+                        font-family: "Material Symbols Outlined Variable";
+                        font-size: 20px;
+                        line-height: 1;
+                        vertical-align: text-bottom;
+                    }
+                }
+            }
+        }
+    }
+
+    mat-list-option {
+        width: 100%;
+        max-width: 100%;
+        gap: var(--hy-spacing-small);
+        border-radius: var(--hy-radius-x-small);
+        min-height: 36px;
+        height: 36px;
+        padding-inline-start: var(--hy-spacing-medium-small) !important;
+        inline-size: auto;
+        padding-inline-end: var(--hy-spacing-medium-small) !important;
+
+        @include mat.list-overrides(
+            (
+                list-item-leading-icon-size: 20px,
+            )
+        );
+
+        @include mat.checkbox-overrides(
+            (
+                state-layer-size: 20px,
+            )
+        );
+
+        @include mat.list-overrides(
+            (
+                list-item-leading-icon-start-space: 0px,
+                list-item-leading-icon-end-space: 0px,
+            )
+        );
+
+        &:hover,
+        &:focus {
+            border-radius: var(--hy-radius-x-small);
+        }
+
+        &[aria-selected="true"] {
+            border-radius: 12px;
+
+            @include mat.list-overrides(
+                (
+                    list-item-container-color: var(--mat-sys-tertiary-container),
+                    list-item-label-text-color: var(
+                            --mat-sys-on-tertiary-container
+                        ),
+                    list-item-selected-container-color: var(
+                            --mat-sys-tertiary-container
+                        ),
+                )
+            );
+
+            @include mat.checkbox-overrides(
+                (
+                    selected-checkmark-color: var(--mat-sys-tertiary-container),
+                    selected-focus-icon-color: var(
+                            --mat-sys-on-tertiary-container
+                        ),
+                    selected-hover-icon-color: var(
+                            --mat-sys-on-tertiary-container
+                        ),
+                    selected-icon-color: var(--mat-sys-on-tertiary-container),
+                )
+            );
+        }
+
+        .mdc-list-item__start {
+            margin: 0px !important;
+        }
+
+        .mdc-list-item__primary-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        [matListItemIcon] {
+            font-size: 20px;
+        }
+    }
+}

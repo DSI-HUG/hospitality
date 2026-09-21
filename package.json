@@ -46,6 +46,9 @@
         "./material/icon": {
             "sass": "./material/icon/icon.scss"
         },
+        "./material/overlay-selection-list": {
+            "sass": "./material/overlay-selection-list/overlay-selection-list.scss"
+        },
         "./material/scrollbar": {
             "sass": "./material/scrollbar/scrollbar.scss"
         },
