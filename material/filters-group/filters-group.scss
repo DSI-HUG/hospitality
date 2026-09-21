@@ -1,0 +1,14 @@
+html {
+    --ngx-filters-group-overlay-title-font: var(
+        --hy-typo-title-medium-emphasized
+    );
+    --ngx-filters-group-overlay-title-letter-spacing: var(
+        --hy-typo-ref-title-medium-tracking
+    );
+    --ngx-filters-group-overlay-title-label-font: var(
+        --hy-typo-title-small-emphasized
+    );
+    --ngx-filters-group-overlay-title-label-letter-spacing: var(
+        --hy-typo-ref-title-small-tracking
+    );
+}
