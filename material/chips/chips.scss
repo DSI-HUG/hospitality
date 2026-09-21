@@ -1,0 +1,83 @@
+@use "@angular/material" as mat;
+
+mat-chip {
+    &[hy-color] {
+        @include mat.chips-overrides(
+            (
+                elevated-container-color: var(--hy-color-warning-container),
+                label-text-color: var(--hy-color-on-warning-container),
+                elevated-disabled-container-color: color-mix(
+                        in srgb,
+                        var(--hy-color-on-surface) var(--hy-state-layer-small),
+                        transparent
+                    ),
+                outline-color: transparent,
+                disabled-outline-color: transparent,
+                hover-state-layer-color: var(--hy-color-on-warning-container),
+            )
+        );
+    }
+
+    &[hy-size="x-small"] {
+        @include mat.chips-overrides(
+            (
+                container-height: 20px,
+                label-text-font: var(--mat-sys-label-small-font),
+                label-text-line-height: 13px,
+                label-text-size: var(--mat-sys-label-small-size),
+                label-text-tracking: var(--mat-sys-label-small-tracking),
+                label-text-weight: var(--mat-sys-label-small-weight),
+                with-icon-icon-size: 16px,
+            )
+        );
+
+        [matchipcontent] {
+            padding-inline: var(--hy-spacing-small);
+        }
+
+        &:has(.mat-icon) [matchipcontent] {
+            padding-inline-start: var(--hy-spacing-x-small);
+        }
+
+        .mat-mdc-chip-action-label {
+            gap: var(--hy-spacing-x-small);
+
+            .mat-icon {
+                height: 16px;
+                width: 16px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    &:has(.mat-icon) [matchipcontent] {
+        padding-inline-start: var(--hy-spacing-small);
+    }
+
+    .mat-mdc-chip-action-label {
+        display: flex;
+        align-items: center;
+        gap: var(--hy-spacing-small);
+
+        .mat-icon {
+            height: 18px;
+            width: 18px;
+            font-size: 18px;
+        }
+    }
+}
+
+mat-chip-option {
+    button {
+        gap: 0px;
+    }
+
+    span,
+    [matchiptrailingicon] {
+        cursor: pointer;
+    }
+
+    mat-icon {
+        padding: 0px;
+    }
+}
