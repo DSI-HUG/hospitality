@@ -5,9 +5,9 @@ import { Directive, input } from '@angular/core';
     selector: 'mat-chip[hyColor]',
     standalone: true,
     host: {
-        '[attr.hyColor]': 'hyColor()'
+        '[attr.hyColor]': 'hyColor() ? "" : null'
     }
 })
 export class HyChipColorDirective {
-    public hyColor = input<boolean | null>(null);
+    public hyColor = input<boolean>(false);
 }
