@@ -84,3 +84,15 @@ mat-chip-option {
         padding: 0px;
     }
 }
+
+mat-chip-row {
+    @include mat.chips-overrides(
+        (
+            with-avatar-avatar-size: 22px,
+        )
+    );
+
+    mat-icon[matchipavatar] {
+        padding-left: var(--hy-spacing-x-small);
+    }
+}
