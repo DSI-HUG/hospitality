@@ -1,24 +1,28 @@
 @use "@angular/material" as mat;
 
 mat-chip {
-    &[hy-color] {
+    &[hyColor] {
         @include mat.chips-overrides(
             (
-                elevated-container-color: var(--hy-color-warning-container),
-                label-text-color: var(--hy-color-on-warning-container),
-                elevated-disabled-container-color: color-mix(
-                        in srgb,
-                        var(--hy-color-on-surface) var(--hy-state-layer-small),
-                        transparent
+                elevated-container-color: var(
+                        --hy-chips-color-background,
+                        var(--hy-color-warning-container)
+                    ),
+                label-text-color: var(
+                        --hy-chips-text-icon-color,
+                        var(--hy-color-on-warning-container)
                     ),
                 outline-color: transparent,
                 disabled-outline-color: transparent,
-                hover-state-layer-color: var(--hy-color-on-warning-container),
+                hover-state-layer-color: var(
+                        --hy-chips-text-icon-color,
+                        var(--hy-color-on-warning-container)
+                    ),
             )
         );
     }
 
-    &[hy-size="x-small"] {
+    &[hySize="x-small"] {
         @include mat.chips-overrides(
             (
                 container-height: 20px,
