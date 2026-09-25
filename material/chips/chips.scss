@@ -85,10 +85,13 @@ mat-chip-option {
     }
 }
 
-mat-chip-row {
+mat-chip-row,
+mat-chip,
+mat-chip-option {
     @include mat.chips-overrides(
         (
             with-avatar-avatar-size: 22px,
+            with-avatar-avatar-shape-radius: 0px,
         )
     );
 
