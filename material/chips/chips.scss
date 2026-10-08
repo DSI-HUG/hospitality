@@ -131,6 +131,10 @@ mat-chip-option {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+
+        &:not(:has(.mat-icon)) {
+            display: block;
+        }
     }
 
     mat-icon[matchipavatar] {
