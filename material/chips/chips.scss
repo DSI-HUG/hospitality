@@ -34,7 +34,7 @@ mat-chip {
             (
                 with-icon-icon-color: var(--hy-information-chips-text-color),
                 elevated-container-color: var(
-                        --hy-information-chips-background-color,
+                        --hy-information-chips-container-color,
                         var(--mat-sys-surface-container-lowest)
                     ),
                 hover-state-layer-color: var(--hy-information-chips-text-color),
@@ -79,7 +79,7 @@ mat-chip {
 
     &[hyAppearance="status"] {
         --hy-information-chips-text-color: var(--hy-color-pal-pink-30);
-        --hy-information-chips-background-color: var(--hy-color-pal-pink-90);
+        --hy-information-chips-container-color: var(--hy-color-pal-pink-90);
 
         @include mat.chips-overrides(
             (
