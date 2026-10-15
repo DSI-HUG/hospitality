@@ -1,23 +1,91 @@
 @use "@angular/material" as mat;
 
+mat-chip-row, //input chip 
+mat-chip, //information chip
+mat-chip-option //filter chip
+{
+    @include mat.chips-overrides(
+        (
+            with-avatar-avatar-size: 22px,
+            with-avatar-avatar-shape-radius: 0,
+        )
+    );
+
+    .mat-mdc-chip-action-label {
+        max-width: var(--hy-chip-label-max-width, 20ch);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:not(:has(.mat-icon)) {
+            display: block;
+        }
+    }
+
+    mat-icon[matchipavatar] {
+        padding-left: var(--hy-spacing-x-small);
+    }
+}
+
+//information chip
 mat-chip {
-    &[hyColor] {
+    &:not(.more-filters-chip) {
         @include mat.chips-overrides(
             (
+                with-icon-icon-color: var(--hy-information-chips-text-color),
                 elevated-container-color: var(
-                        --hy-chips-color-background,
-                        var(--hy-color-warning-container)
+                        --hy-information-chips-background-color,
+                        var(--mat-sys-surface-container-lowest)
                     ),
-                label-text-color: var(
-                        --hy-chips-text-icon-color,
-                        var(--hy-color-on-warning-container)
+                hover-state-layer-color: var(--hy-information-chips-text-color),
+                elevated-disabled-container-color: color-mix(
+                        in srgb,
+                        var(--mat-sys-surface-container-lowest)
+                            var(--hy-state-layer-highest),
+                        transparent
                     ),
+            )
+        );
+
+        [matchipcontent] > :only-child {
+            @include mat.chips-overrides(
+                (
+                    label-text-color: var(--hy-information-chips-text-color),
+                )
+            );
+        }
+    }
+
+    &[hyAppearance^="tag-error"] {
+        --hy-information-chips-text-color: var(--hy-color-error);
+    }
+
+    &[hyAppearance^="tag-warning"] {
+        --hy-information-chips-text-color: var(--hy-color-warning-text);
+    }
+
+    &[hyAppearance^="tag-success"] {
+        --hy-information-chips-text-color: var(--hy-color-success);
+    }
+
+    &[hyAppearance$="-strong"] {
+        @include mat.chips-overrides(
+            (
+                outline-color: var(--hy-information-chips-text-color),
+                label-text-color: var(--hy-information-chips-text-color),
+            )
+        );
+    }
+
+    &[hyAppearance="status"] {
+        --hy-information-chips-text-color: var(--hy-color-pal-pink-30);
+        --hy-information-chips-background-color: var(--hy-color-pal-pink-90);
+
+        @include mat.chips-overrides(
+            (
+                label-text-color: var(--hy-information-chips-text-color),
                 outline-color: transparent,
                 disabled-outline-color: transparent,
-                hover-state-layer-color: var(
-                        --hy-chips-text-icon-color,
-                        var(--hy-color-on-warning-container)
-                    ),
                 elevated-disabled-container-color: color-mix(
                         in srgb,
                         var(--hy-color-on-surface) var(--hy-state-layer-lowest),
@@ -30,7 +98,7 @@ mat-chip {
     &[hySize="x-small"] {
         @include mat.chips-overrides(
             (
-                container-height: 20px,
+                container-height: 24px,
                 label-text-font: var(--mat-sys-label-small-font),
                 label-text-line-height: 13px,
                 label-text-size: var(--mat-sys-label-small-size),
@@ -43,6 +111,7 @@ mat-chip {
 
         &:has(.mat-icon) [matchipcontent] {
             padding-inline-start: var(--hy-spacing-x-small);
+            padding-inline-end: 6px;
         }
 
         .mat-mdc-chip-action-label {
@@ -98,6 +167,7 @@ mat-chip {
     }
 }
 
+//filter chip
 mat-chip-option {
     [matchiptrailingicon] {
         cursor: pointer;
@@ -112,32 +182,7 @@ mat-chip-option {
     }
 }
 
+//input chip
 mat-chip-row [matchipaction] {
     cursor: default;
-}
-
-mat-chip-row,
-mat-chip,
-mat-chip-option {
-    @include mat.chips-overrides(
-        (
-            with-avatar-avatar-size: 22px,
-            with-avatar-avatar-shape-radius: 0,
-        )
-    );
-
-    .mat-mdc-chip-action-label {
-        max-width: var(--hy-chip-label-max-width, 20ch);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-
-        &:not(:has(.mat-icon)) {
-            display: block;
-        }
-    }
-
-    mat-icon[matchipavatar] {
-        padding-left: var(--hy-spacing-x-small);
-    }
 }

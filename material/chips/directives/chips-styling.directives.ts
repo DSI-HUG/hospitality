@@ -1,13 +1,13 @@
-import { HyChipColorDirective } from './chips-color.directive';
+import { HyChipAppearanceDirective } from './chips-appearance.directive';
 import { HyChipSizeDirective } from './chips-size.directive';
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const HyChipStylingDirectives = [
     HyChipSizeDirective,
-    HyChipColorDirective
+    HyChipAppearanceDirective
 ] as const;
 
 export {
-    HyChipColorDirective, HyChipSizeDirective
+    HyChipAppearanceDirective, HyChipSizeDirective
 };
 

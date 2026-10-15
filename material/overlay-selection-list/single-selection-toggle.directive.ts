@@ -12,7 +12,8 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NgControl, NgModel } from '@angular/forms';
 import {
     MatListOption,
-    MatSelectionList
+    MatSelectionList,
+    MatSelectionListChange
 } from '@angular/material/list';
 
 @Directive({
@@ -93,6 +94,9 @@ export class HySingleSelectionToggleDirective implements AfterContentInit {
             this.zone.run(() => {
                 option.toggle();
                 this.updateFormValue();
+                this.selectionList.selectionChange.emit(
+                    new MatSelectionListChange(this.selectionList, [option])
+                );
             });
         };
 
