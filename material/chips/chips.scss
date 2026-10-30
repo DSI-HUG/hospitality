@@ -32,12 +32,12 @@ mat-chip {
     &:not(.more-filters-chip) {
         @include mat.chips-overrides(
             (
-                with-icon-icon-color: var(--hy-information-chips-text-color),
+                with-icon-icon-color: var(--hy-information-chip-text-color),
                 elevated-container-color: var(
-                        --hy-information-chips-container-color,
+                        --hy-information-chip-container-color,
                         var(--mat-sys-surface-container-lowest)
                     ),
-                hover-state-layer-color: var(--hy-information-chips-text-color),
+                hover-state-layer-color: var(--hy-information-chip-text-color),
                 elevated-disabled-container-color: color-mix(
                         in srgb,
                         var(--mat-sys-surface-container-lowest)
@@ -50,40 +50,40 @@ mat-chip {
         [matchipcontent] > :only-child {
             @include mat.chips-overrides(
                 (
-                    label-text-color: var(--hy-information-chips-text-color),
+                    label-text-color: var(--hy-information-chip-text-color),
                 )
             );
         }
     }
 
     &[hyAppearance^="tag-error"] {
-        --hy-information-chips-text-color: var(--hy-color-error);
+        --hy-information-chip-text-color: var(--hy-color-error);
     }
 
     &[hyAppearance^="tag-warning"] {
-        --hy-information-chips-text-color: var(--hy-color-warning-text);
+        --hy-information-chip-text-color: var(--hy-color-warning-text);
     }
 
     &[hyAppearance^="tag-success"] {
-        --hy-information-chips-text-color: var(--hy-color-success);
+        --hy-information-chip-text-color: var(--hy-color-success);
     }
 
     &[hyAppearance$="-strong"] {
         @include mat.chips-overrides(
             (
-                outline-color: var(--hy-information-chips-text-color),
-                label-text-color: var(--hy-information-chips-text-color),
+                outline-color: var(--hy-information-chip-text-color),
+                label-text-color: var(--hy-information-chip-text-color),
             )
         );
     }
 
     &[hyAppearance="status"] {
-        --hy-information-chips-text-color: var(--hy-color-pal-pink-30);
-        --hy-information-chips-container-color: var(--hy-color-pal-pink-90);
+        --hy-information-chip-text-color: var(--hy-color-pal-pink-30);
+        --hy-information-chip-container-color: var(--hy-color-pal-pink-90);
 
         @include mat.chips-overrides(
             (
-                label-text-color: var(--hy-information-chips-text-color),
+                label-text-color: var(--hy-information-chip-text-color),
                 outline-color: transparent,
                 disabled-outline-color: transparent,
                 elevated-disabled-container-color: color-mix(
