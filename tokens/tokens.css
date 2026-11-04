@@ -421,7 +421,7 @@
         var(--hy-color-ref-success-95),
         var(--hy-color-ref-success-30)
     );
-    --hy-color-on-sucess-container: light-dark(
+    --hy-color-on-success-container: light-dark(
         var(--hy-color-ref-success-25),
         var(--hy-color-ref-success-95)
     );
