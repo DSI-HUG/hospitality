@@ -1,18 +1,8 @@
 ngx-snackbar {
-    --ngx-snackbar-background-color: var(--hy-color-surface);
-    --ngx-snackbar-border-color: var(--hy-color-outline-variant);
-    --ngx-snackbar-text-color: var(--hy-color-on-surface);
-    --ngx-snackbar-info-icon-color: var(--hy-color-primary);
-    --ngx-snackbar-action-color: var(--hy-color-primary);
-    --ngx-snackbar-title-font: var(--hy-typo-title-small);
     --ngx-snackbar-success-icon-color: var(--hy-color-success);
     --ngx-snackbar-success-action-color: var(--hy-color-success);
     --ngx-snackbar-warning-icon-color: var(--hy-color-warning);
     --ngx-snackbar-warning-background-color: var(--hy-color-warning-container);
     --ngx-snackbar-warning-text-color: var(--hy-color-on-warning-container);
     --ngx-snackbar-warning-action-color: var(--hy-color-warning-text);
-    --ngx-snackbar-error-icon-color: var(--hy-color-error);
-    --ngx-snackbar-error-background-color: var(--hy-color-error-container);
-    --ngx-snackbar-error-text-color: var(--hy-color-on-error-container);
-    --ngx-snackbar-error-action-color: var(--hy-color-error);
 }
