@@ -149,11 +149,11 @@ button {
                         var(--hy-color-on-warning) var(--hy-state-layer-low),
                         transparent
                     ),
-                text-label-text-color: var(--hy-color-warning),
-                text-state-layer-color: var(--hy-color-warning),
+                text-label-text-color: var(--hy-color-warning-text),
+                text-state-layer-color: var(--hy-color-warning-text),
                 text-ripple-color: color-mix(
                         in srgb,
-                        var(--hy-color-warning) var(--hy-state-layer-low),
+                        var(--hy-color-warning-text) var(--hy-state-layer-low),
                         transparent
                     ),
             )
