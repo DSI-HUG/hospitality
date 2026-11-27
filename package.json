@@ -63,8 +63,8 @@
         }
     },
     "peerDependencies": {
-        "@angular/material": "^21.x",
-        "@fontsource-variable/material-symbols-outlined": "^5.2.0"
+        "@angular/material": "^22.0.0",
+        "@fontsource-variable/material-symbols-outlined": "^5.3.9"
     },
     "peerDependenciesMeta": {
         "@angular/material": {
@@ -72,18 +72,21 @@
         }
     },
     "devDependencies": {
-        "@angular/common": "^21.2.0",
-        "@angular/compiler-cli": "^21.2.0",
-        "@angular/core": "^21.2.0",
-        "@angular/forms": "^21.2.0",
-        "@angular/material": "^21.2.0",
-        "@fontsource-variable/material-symbols-outlined": "^5.2.0",
+        "@angular/common": "^22.3.0",
+        "@angular/compiler-cli": "^22.3.0",
+        "@angular/core": "^22.3.0",
+        "@angular/forms": "^22.3.0",
+        "@angular/material": "^22.3.0",
         "@commitlint/cli": "^20.2.0",
         "@commitlint/config-conventional": "^20.2.0",
-        "@hug/eslint-config": "^20.3.3",
+        "@fontsource-variable/material-symbols-outlined": "^5.3.9",
+        "@hug/eslint-config": "^29.0.0",
+        "@types/node": "^24.19.4",
+        "eslint": "~10.15.0",
         "husky": "^9.1.7",
         "lint-staged": "^16.2.7",
-        "ng-packagr": "^21.2.0"
+        "ng-packagr": "^22.3.0",
+        "typescript": ">=6.0.0 <6.1.0"
     },
     "commitlint": {
         "extends": [

@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/naming-convention */
+
 import { Directive, input } from '@angular/core';
 
 export type HyFormFieldSizeType = 'small' | 'medium' | 'large';
@@ -7,8 +7,8 @@ export type HyFormFieldSizeType = 'small' | 'medium' | 'large';
     selector: 'mat-form-field[hySize]',
     standalone: true,
     host: {
-        '[attr.hySize]': 'hySize()'
-    }
+        '[attr.hySize]': 'hySize()',
+    },
 })
 export class HyFormFieldSizeDirective {
     public hySize = input<HyFormFieldSizeType | null>(null);

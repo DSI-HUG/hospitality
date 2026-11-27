@@ -4,10 +4,10 @@ import { HyChipSizeDirective } from './chips-size.directive';
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const HyChipStylingDirectives = [
     HyChipSizeDirective,
-    HyChipAppearanceDirective
+    HyChipAppearanceDirective,
 ] as const;
 
 export {
-    HyChipAppearanceDirective, HyChipSizeDirective
+    HyChipAppearanceDirective, HyChipSizeDirective,
 };
 
