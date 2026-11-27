@@ -1,6 +1,6 @@
 {
     "name": "@hug/hospitality",
-    "version": "0.0.4-alpha.23",
+    "version": "1.0.0-alpha.58",
     "description": "Hospitality Design System",
     "homepage": "https://github.com/dsi-hug/hospitality",
     "license": "GPL-3.0-only",
@@ -28,14 +28,32 @@
         "release": "npm publish ./dist/"
     },
     "exports": {
+        "./material/app-bar": {
+            "sass": "./material/app-bar/app-bar.scss"
+        },
         "./material/button": {
             "sass": "./material/button/button.scss"
+        },
+        "./material/checkbox": {
+            "sass": "./material/checkbox/checkbox.scss"
+        },
+        "./material/chips": {
+            "sass": "./material/chips/chips.scss"
         },
         "./material/dialog": {
             "sass": "./material/dialog/dialog.scss"
         },
         "./material/form-field": {
             "sass": "./material/form-field/form-field.scss"
+        },
+        "./material/icon": {
+            "sass": "./material/icon/icon.scss"
+        },
+        "./material/overlay-selection-list": {
+            "sass": "./material/overlay-selection-list/overlay-selection-list.scss"
+        },
+        "./material/scrollbar": {
+            "sass": "./material/scrollbar/scrollbar.scss"
         },
         "./material/theme": {
             "sass": "./material/theme/theme.scss"
@@ -45,7 +63,8 @@
         }
     },
     "peerDependencies": {
-        "@angular/material": "^19.x"
+        "@angular/material": "^21.x",
+        "@fontsource-variable/material-symbols-outlined": "^5.2.0"
     },
     "peerDependenciesMeta": {
         "@angular/material": {
@@ -53,17 +72,18 @@
         }
     },
     "devDependencies": {
-        "@angular/common": "^19.2.17",
-        "@angular/compiler-cli": "^19.2.17",
-        "@angular/core": "^19.2.17",
-        "@angular/forms": "^19.2.17",
-        "@angular/material": "^19.2.19",
-        "ng-packagr": "^19.2.2",
+        "@angular/common": "^21.2.0",
+        "@angular/compiler-cli": "^21.2.0",
+        "@angular/core": "^21.2.0",
+        "@angular/forms": "^21.2.0",
+        "@angular/material": "^21.2.0",
+        "@fontsource-variable/material-symbols-outlined": "^5.2.0",
         "@commitlint/cli": "^20.2.0",
         "@commitlint/config-conventional": "^20.2.0",
         "@hug/eslint-config": "^20.3.3",
         "husky": "^9.1.7",
-        "lint-staged": "^16.2.7"
+        "lint-staged": "^16.2.7",
+        "ng-packagr": "^21.2.0"
     },
     "commitlint": {
         "extends": [

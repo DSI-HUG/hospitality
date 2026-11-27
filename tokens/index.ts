@@ -33,11 +33,19 @@ export interface Tokens extends ReferencesTokens {
     } | TokenSystem[];
 }
 
+export interface ColorsTokens extends Tokens {
+    palettes: {
+        light: Token[];
+        dark: Token[];
+    };
+}
+
 const tokens: {
-    colors: Tokens;
+    colors: ColorsTokens;
     typographies: Tokens;
     radius: ReferencesTokens;
     spacing: ReferencesTokens;
+    stateLayers: ReferencesTokens;
 } = rawTokens;
 
 export { tokens };

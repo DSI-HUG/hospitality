@@ -1,0 +1,10 @@
+ngx-app-bar {
+    --ngx-app-bar-title-font: var(--hy-typo-headline-medium-emphasized);
+    --ngx-app-bar-title-letter-spacing: var(
+        --hy-typo-ref-headline-medium-tracking
+    );
+    --ngx-app-bar-subtitle-font: var(--hy-typo-headline-small-emphasized);
+    --ngx-app-bar-subtitle-letter-spacing: var(
+        --hy-typo-ref-headline-small-tracking
+    );
+}
