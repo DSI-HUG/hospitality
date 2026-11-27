@@ -13,13 +13,13 @@ export interface TokenSystem {
     type: string;
     reference: Token[];
     _referenceValue:
-    | string
-    | {
-        weight: number;
-        size: number;
-        lineHeight: number;
-        font: string;
-    };
+      | string
+      | {
+          weight: number;
+          size: number;
+          lineHeight: number;
+          font: string;
+      };
 }
 
 export interface ReferencesTokens {

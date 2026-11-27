@@ -6,19 +6,19 @@ import {
     ElementRef,
     inject,
     NgZone,
-    type QueryList
+    type QueryList,
 } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NgControl, NgModel } from '@angular/forms';
 import {
     MatListOption,
     MatSelectionList,
-    MatSelectionListChange
+    MatSelectionListChange,
 } from '@angular/material/list';
 
 @Directive({
     selector: 'mat-selection-list[hySingleSelectionToggle]',
-    standalone: true
+    standalone: true,
 })
 export class HySingleSelectionToggleDirective implements AfterContentInit {
     @ContentChildren(MatListOption, { descendants: true })
@@ -26,13 +26,13 @@ export class HySingleSelectionToggleDirective implements AfterContentInit {
 
     @ContentChildren(MatListOption, {
         descendants: true,
-        read: ElementRef
+        read: ElementRef,
     })
     private readonly elements!: QueryList<ElementRef<HTMLElement>>;
 
     private readonly ngControl = inject(NgControl, {
         self: true,
-        optional: true
+        optional: true,
     });
 
     private readonly selectionList = inject(MatSelectionList);
@@ -60,7 +60,7 @@ export class HySingleSelectionToggleDirective implements AfterContentInit {
 
                 this.optionCleanups.set(
                     option,
-                    this.attachOptionListeners(option, element.nativeElement)
+                    this.attachOptionListeners(option, element.nativeElement),
                 );
             });
         };
@@ -85,7 +85,7 @@ export class HySingleSelectionToggleDirective implements AfterContentInit {
 
     private attachOptionListeners(
         option: MatListOption,
-        element: HTMLElement
+        element: HTMLElement,
     ): () => void {
         const isToggleBlocked = (): boolean =>
             option.disabled || this.selectionList.multiple;
@@ -95,7 +95,7 @@ export class HySingleSelectionToggleDirective implements AfterContentInit {
                 option.toggle();
                 this.updateFormValue();
                 this.selectionList.selectionChange.emit(
-                    new MatSelectionListChange(this.selectionList, [option])
+                    new MatSelectionListChange(this.selectionList, [option]),
                 );
             });
         };
@@ -112,9 +112,9 @@ export class HySingleSelectionToggleDirective implements AfterContentInit {
 
         const handleKeydown = (event: KeyboardEvent): void => {
             if (
-                isToggleBlocked() ||
-                event.repeat ||
-                (event.key !== 'Enter' && event.key !== ' ')
+                isToggleBlocked()
+                || event.repeat
+                || (event.key !== 'Enter' && event.key !== ' ')
             ) {
                 return;
             }
@@ -135,7 +135,7 @@ export class HySingleSelectionToggleDirective implements AfterContentInit {
 
     private updateFormValue(): void {
         const value = this.selectionList.selectedOptions.selected.map(
-            (option): unknown => option.value
+            (option): unknown => option.value,
         );
 
         this.ngControl?.control?.setValue(value);

@@ -1,5 +1,5 @@
 
-/* eslint-disable @typescript-eslint/naming-convention */
+
 import { Directive, input } from '@angular/core';
 
 export type HyCheckboxAppearanceType = 'error';
@@ -8,8 +8,8 @@ export type HyCheckboxAppearanceType = 'error';
     selector: 'mat-checkbox[hyAppearance]',
     standalone: true,
     host: {
-        '[attr.hyAppearance]': 'hyAppearance()'
-    }
+        '[attr.hyAppearance]': 'hyAppearance()',
+    },
 })
 export class HyCheckboxAppearanceDirective {
     public hyAppearance = input<HyCheckboxAppearanceType | null>(null);

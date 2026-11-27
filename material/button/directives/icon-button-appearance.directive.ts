@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/naming-convention */
+
 import { Directive, input } from '@angular/core';
 
 export type HyAppearanceIconType = 'warning' | 'warning-filled' | 'tonal' | 'filled';
@@ -9,8 +9,8 @@ export type HyAppearanceIconType = 'warning' | 'warning-filled' | 'tonal' | 'fil
     `,
     standalone: true,
     host: {
-        '[attr.hyAppearance]': 'hyAppearance()'
-    }
+        '[attr.hyAppearance]': 'hyAppearance()',
+    },
 })
 export class HyIconButtonAppearanceDirective {
     public hyAppearance = input<HyAppearanceIconType | null>(null);

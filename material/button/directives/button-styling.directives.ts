@@ -6,10 +6,10 @@ import { HyIconButtonAppearanceDirective } from './icon-button-appearance.direct
 export const HyButtonStylingDirectives = [
     HyButtonSizeDirective,
     HyButtonAppearanceDirective,
-    HyIconButtonAppearanceDirective
+    HyIconButtonAppearanceDirective,
 ] as const;
 
 export {
-    HyButtonAppearanceDirective, HyButtonSizeDirective, HyIconButtonAppearanceDirective
+    HyButtonAppearanceDirective, HyButtonSizeDirective, HyIconButtonAppearanceDirective,
 };
 
