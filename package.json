@@ -63,8 +63,8 @@
         }
     },
     "peerDependencies": {
-        "@angular/material": "^21.x",
-        "@fontsource-variable/material-symbols-outlined": "^5.2.0"
+        "@angular/material": "^22.x",
+        "@fontsource-variable/material-symbols-outlined": "^5.3.9"
     },
     "peerDependenciesMeta": {
         "@angular/material": {
